@@ -67,28 +67,28 @@
     <Compile Include="GİRİŞ EKRANI.Designer.cs">
       <DependentUpon>GİRİŞ EKRANI.cs</DependentUpon>
     </Compile>
-    <Compile Include="KAYIT OL.cs">
+    <Compile Include="OYUNEKRANI.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="KAYIT OL.Designer.cs">
-      <DependentUpon>KAYIT OL.cs</DependentUpon>
+    <Compile Include="OYUNEKRANI.Designer.cs">
+      <DependentUpon>OYUNEKRANI.cs</DependentUpon>
     </Compile>
-    <Compile Include="OYUN.cs">
+    <Compile Include="oyunekranı1cs.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="OYUN.Designer.cs">
-      <DependentUpon>OYUN.cs</DependentUpon>
+    <Compile Include="oyunekranı1cs.Designer.cs">
+      <DependentUpon>oyunekranı1cs.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="GİRİŞ EKRANI.resx">
       <DependentUpon>GİRİŞ EKRANI.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="KAYIT OL.resx">
-      <DependentUpon>KAYIT OL.cs</DependentUpon>
+    <EmbeddedResource Include="OYUNEKRANI.resx">
+      <DependentUpon>OYUNEKRANI.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="OYUN.resx">
-      <DependentUpon>OYUN.cs</DependentUpon>
+    <EmbeddedResource Include="oyunekranı1cs.resx">
+      <DependentUpon>oyunekranı1cs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

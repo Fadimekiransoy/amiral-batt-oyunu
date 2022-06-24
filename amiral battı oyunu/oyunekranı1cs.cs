@@ -10,18 +10,16 @@ using System.Windows.Forms;
 
 namespace amiral_battı_oyunu
 {
-    public partial class OYUN : Form
+    public partial class oyunekranı1cs : Form
     {
-        public OYUN()
+        public oyunekranı1cs()
         {
             InitializeComponent();
         }
 
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            
+
         }
     }
 }
-
