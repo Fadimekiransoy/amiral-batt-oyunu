@@ -21,6 +21,8 @@ namespace amiral_battı_oyunu
         SqlConnection con = new SqlConnection("Data Source = CODERKIZTR; Initial Catalog = amiral_batti; Integrated Security = True");
         SqlCommand cmd;
         SqlDataReader dr;
+
+
         private void button1_Click(object sender, EventArgs e)
         {
             string oyuncuadi = textBox1.Text;
@@ -37,58 +39,90 @@ namespace amiral_battı_oyunu
                 this.Hide();
             }else
             {
+                TextboxTemizle(panel1);
+
                 MessageBox.Show("oyuncu adı yada sifre yanlış");
             }
             con.Close();
         }
 
-        private void btn_temizle_Click(object sender, EventArgs e)
+        
+
+
+
+        bool boslukkontrol()
         {
-            foreach (Control item in this.Controls)
+            if (txtoyuncu_adi.Text == "")
             {
-                if (item.GetType().ToString() == "System.Windows.Forms.TextBox") item.Text = "";
+                MessageBox.Show("Lütfen Oyuncu Adı Alanını Doldurunuz!", "HATA", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtoyuncu_adi.Focus();
+                return false;
+            }
+            else if (txtsifre.Text == "")
+            {
+                MessageBox.Show("Lütfen Şifre Alanını Doldurunuz!", "HATA", MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning);
+                txtsifre.Focus();
+                return false;
+            }
+            else return true;
+        }
+        private static void TextboxTemizle(Panel item)
+        {
+            foreach (Control a in item.Controls)
+            {
+                if (!(a is TextBox)) continue;
+                a.Text = "";
+            }
+        }
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (boslukkontrol())
+            { 
+                con.Open();
+                SqlCommand cmd = new SqlCommand(" insert into oyuncular(oyuncu_adi,sifre)values(@a,@s)", con);
+                cmd.Parameters.AddWithValue("@a", txtoyuncu_adi.Text);
+                cmd.Parameters.AddWithValue("@s", txtsifre.Text);
+                cmd.ExecuteNonQuery();
+                TextboxTemizle(panel2);
+                MessageBox.Show("Kayıt başarılı giriş yapabilirsiniz");
+                con.Close();
+                
             }
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked)
+            {
+                checkBox1.Text = "Şifreyi Gizle";
+                textBox2.PasswordChar = '\0';
+            }
+
+            else
+            {
+                checkBox1.Text = "Şifreyi Göster";
+                textBox2.PasswordChar = '*';
+            }
+        }
+
+        private void txtoyuncu_adi_Enter(object sender, EventArgs e)
+        {
+            if (txtoyuncu_adi.Text=="OYUNCU ADI")
+            {
+                txtoyuncu_adi.Text = "";
+            }
+        }
+
+        private void txtoyuncu_adi_Leave(object sender, EventArgs e)
         {
 
-            con.Open();
-            int sonuc;
-            SqlCommand cmd = new SqlCommand(" insert into oyuncular(oyuncu_adi,sifre)values(@a,@s)", con);
-
-            cmd.Parameters.AddWithValue("@a", txtoyuncu_adi.Text);
-            cmd.Parameters.AddWithValue("@s", txtsifre.Text);
-
-            sonuc = cmd.ExecuteNonQuery();
-
-
-
-            if (sonuc > 0)
+            if (txtoyuncu_adi.Text == "")
             {
-                MessageBox.Show("Kayıt başarılı giriş yapabilirsiniz");
+                txtoyuncu_adi.Text = "OYUNCU ADI";
             }
-            else
-            { 
-
-            
-                if (txtoyuncu_adi.Text == "")
-                {
-                    MessageBox.Show("Lütfen Kullanıcı Adı Alanını Doldurunuz!", "HATA", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    txtoyuncu_adi.Focus();
-                    
-                  
-                }
-                else if (txtsifre.Text == "")
-                {
-                    MessageBox.Show("Lütfen Şifre Alanını Doldurunuz!", "HATA", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    txtsifre.Focus();
-                   
-                }
-               
-            }
-
-            con.Close();
         }
     }
 }
+
+

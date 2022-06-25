@@ -1112,7 +1112,7 @@ namespace amiral_battı_oyunu
             // 
             this.button71.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button71.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button71.Location = new System.Drawing.Point(43, 186);
+            this.button71.Location = new System.Drawing.Point(43, 155);
             this.button71.Name = "button71";
             this.button71.Size = new System.Drawing.Size(47, 40);
             this.button71.TabIndex = 159;
@@ -1417,7 +1417,6 @@ namespace amiral_battı_oyunu
             this.button101.Size = new System.Drawing.Size(47, 40);
             this.button101.TabIndex = 129;
             this.button101.UseVisualStyleBackColor = true;
-            this.button101.Click += new System.EventHandler(this.button101_Click);
             // 
             // groupBox1
             // 

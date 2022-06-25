@@ -34,7 +34,6 @@ namespace amiral_battı_oyunu
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.btn_temizle = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
@@ -44,6 +43,7 @@ namespace amiral_battı_oyunu
             this.txtoyuncu_adi = new System.Windows.Forms.TextBox();
             this.txtsifre = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -94,25 +94,13 @@ namespace amiral_battı_oyunu
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // btn_temizle
-            // 
-            this.btn_temizle.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.btn_temizle.Font = new System.Drawing.Font("Segoe Print", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btn_temizle.Location = new System.Drawing.Point(58, 242);
-            this.btn_temizle.Name = "btn_temizle";
-            this.btn_temizle.Size = new System.Drawing.Size(297, 30);
-            this.btn_temizle.TabIndex = 5;
-            this.btn_temizle.Text = "TEMİZLE";
-            this.btn_temizle.UseVisualStyleBackColor = false;
-            this.btn_temizle.Click += new System.EventHandler(this.btn_temizle_Click);
-            // 
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel1.BackColor = System.Drawing.Color.Teal;
+            this.panel1.Controls.Add(this.checkBox1);
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.btn_temizle);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.label2);
@@ -188,6 +176,9 @@ namespace amiral_battı_oyunu
             this.txtoyuncu_adi.Name = "txtoyuncu_adi";
             this.txtoyuncu_adi.Size = new System.Drawing.Size(173, 22);
             this.txtoyuncu_adi.TabIndex = 2;
+            this.txtoyuncu_adi.Text = "OYUNCU ADI";
+            this.txtoyuncu_adi.Enter += new System.EventHandler(this.txtoyuncu_adi_Enter);
+            this.txtoyuncu_adi.Leave += new System.EventHandler(this.txtoyuncu_adi_Leave);
             // 
             // txtsifre
             // 
@@ -206,6 +197,19 @@ namespace amiral_battı_oyunu
             this.label6.Size = new System.Drawing.Size(113, 32);
             this.label6.TabIndex = 6;
             this.label6.Text = "Giriş Yap";
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Checked = true;
+            this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox1.Location = new System.Drawing.Point(262, 158);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(102, 21);
+            this.checkBox1.TabIndex = 7;
+            this.checkBox1.Text = "Şifreyi gizle";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // giris
             // 
@@ -231,7 +235,6 @@ namespace amiral_battı_oyunu
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button btn_temizle;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Panel panel2;
@@ -241,5 +244,6 @@ namespace amiral_battı_oyunu
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.TextBox txtoyuncu_adi;
         private System.Windows.Forms.TextBox txtsifre;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
