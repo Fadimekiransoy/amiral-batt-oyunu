@@ -34,8 +34,9 @@ namespace amiral_battı_oyunu
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.btn_temizle = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -43,7 +44,6 @@ namespace amiral_battı_oyunu
             this.button3 = new System.Windows.Forms.Button();
             this.txtoyuncu_adi = new System.Windows.Forms.TextBox();
             this.txtsifre = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -94,33 +94,44 @@ namespace amiral_battı_oyunu
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // btn_temizle
-            // 
-            this.btn_temizle.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.btn_temizle.Font = new System.Drawing.Font("Segoe Print", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btn_temizle.Location = new System.Drawing.Point(58, 242);
-            this.btn_temizle.Name = "btn_temizle";
-            this.btn_temizle.Size = new System.Drawing.Size(297, 30);
-            this.btn_temizle.TabIndex = 5;
-            this.btn_temizle.Text = "TEMİZLE";
-            this.btn_temizle.UseVisualStyleBackColor = false;
-            this.btn_temizle.Click += new System.EventHandler(this.btn_temizle_Click);
-            // 
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel1.BackColor = System.Drawing.Color.Teal;
+            this.panel1.Controls.Add(this.checkBox1);
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.btn_temizle);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Location = new System.Drawing.Point(63, 58);
+            this.panel1.Location = new System.Drawing.Point(256, 58);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(460, 437);
             this.panel1.TabIndex = 6;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Checked = true;
+            this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox1.Location = new System.Drawing.Point(262, 158);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(102, 21);
+            this.checkBox1.TabIndex = 7;
+            this.checkBox1.Text = "Şifreyi gizle";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Palatino Linotype", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(156, 16);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(113, 32);
+            this.label6.TabIndex = 6;
+            this.label6.Text = "Giriş Yap";
             // 
             // panel2
             // 
@@ -133,7 +144,7 @@ namespace amiral_battı_oyunu
             this.panel2.Controls.Add(this.button3);
             this.panel2.Controls.Add(this.txtoyuncu_adi);
             this.panel2.Controls.Add(this.txtsifre);
-            this.panel2.Location = new System.Drawing.Point(605, 58);
+            this.panel2.Location = new System.Drawing.Point(798, 58);
             this.panel2.Name = "panel2";
             this.panel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.panel2.Size = new System.Drawing.Size(462, 437);
@@ -184,34 +195,32 @@ namespace amiral_battı_oyunu
             // txtoyuncu_adi
             // 
             this.txtoyuncu_adi.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txtoyuncu_adi.Font = new System.Drawing.Font("Yu Gothic Light", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtoyuncu_adi.Location = new System.Drawing.Point(209, 77);
             this.txtoyuncu_adi.Name = "txtoyuncu_adi";
-            this.txtoyuncu_adi.Size = new System.Drawing.Size(173, 22);
+            this.txtoyuncu_adi.Size = new System.Drawing.Size(173, 28);
             this.txtoyuncu_adi.TabIndex = 2;
+            this.txtoyuncu_adi.Text = "OYUNCU ADI";
+            this.txtoyuncu_adi.Enter += new System.EventHandler(this.txtoyuncu_adi_Enter);
+            this.txtoyuncu_adi.Leave += new System.EventHandler(this.txtoyuncu_adi_Leave);
             // 
             // txtsifre
             // 
             this.txtsifre.BackColor = System.Drawing.Color.GhostWhite;
+            this.txtsifre.Font = new System.Drawing.Font("Yu Gothic Light", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtsifre.Location = new System.Drawing.Point(209, 132);
             this.txtsifre.Name = "txtsifre";
-            this.txtsifre.Size = new System.Drawing.Size(173, 22);
+            this.txtsifre.Size = new System.Drawing.Size(173, 28);
             this.txtsifre.TabIndex = 3;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Palatino Linotype", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(156, 16);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(113, 32);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "Giriş Yap";
+            this.txtsifre.Text = "SİFRE";
+            this.txtsifre.Enter += new System.EventHandler(this.txtsifre_Enter);
+            this.txtsifre.Leave += new System.EventHandler(this.txtsifre_Leave);
             // 
             // giris
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1194, 732);
+            this.ClientSize = new System.Drawing.Size(1580, 732);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "giris";
@@ -231,7 +240,6 @@ namespace amiral_battı_oyunu
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button btn_temizle;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Panel panel2;
@@ -241,5 +249,6 @@ namespace amiral_battı_oyunu
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.TextBox txtoyuncu_adi;
         private System.Windows.Forms.TextBox txtsifre;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }

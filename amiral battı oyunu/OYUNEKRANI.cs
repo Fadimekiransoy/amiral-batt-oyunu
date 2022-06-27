@@ -80,10 +80,5 @@ namespace amiral_battı_oyunu
         {
 
         }
-
-        private void button101_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
