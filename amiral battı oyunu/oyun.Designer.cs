@@ -2823,7 +2823,7 @@ namespace amiral_battı_oyunu
             this.kruvazör1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.kruvazör1.BackColor = System.Drawing.Color.Gainsboro;
             this.kruvazör1.Image = ((System.Drawing.Image)(resources.GetObject("kruvazör1.Image")));
-            this.kruvazör1.Location = new System.Drawing.Point(361, 583);
+            this.kruvazör1.Location = new System.Drawing.Point(361, 586);
             this.kruvazör1.Name = "kruvazör1";
             this.kruvazör1.Size = new System.Drawing.Size(165, 46);
             this.kruvazör1.TabIndex = 305;
