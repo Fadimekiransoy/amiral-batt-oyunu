@@ -1874,12 +1874,12 @@ namespace amiral_battı_oyunu
             // button1
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button1.Location = new System.Drawing.Point(669, 472);
+            this.button1.Location = new System.Drawing.Point(641, 472);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(56, 51);
+            this.button1.Size = new System.Drawing.Size(101, 51);
             this.button1.TabIndex = 419;
-            this.button1.Text = "SELAM";
+            this.button1.Text = "OYUNU BAŞLAT";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
