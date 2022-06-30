@@ -20,29 +20,16 @@ namespace amiral_battı_oyunu
             InitializeComponent();
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-
-        private void A1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-
         bool suruklenmedurumu = false; //Class seviyesinde bir field(değişken) tanımlıyoruz ki,MouseDown da biz bunu true yapacağız,
                                        //MouseUpta false değerini alacak ve MouseMove eventında true ise hareket edecek.     
         Point ilkkonumAl; //Global bir değişken tanımlıyoruz ki, ilk tıkladığımız andaki konumunu çıkarmadığımızda buton mouse imlecinden
                           //daha aşağıdan hareket edecektir.
         private string aktifgemi;
-        
+        int i, j;
+        String GemiHarfKonumu = "";
+        int GemiSayiKonumu = 0;
+        int mayınyenikonum = 0;
+
         private void mayın_MouseDown(object sender, MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left)
@@ -75,6 +62,7 @@ namespace amiral_battı_oyunu
             mayın.Cursor = Cursors.Default;//İmlecimiz(Cursor) default değerini alıyor.
             butoneslestirme(mayın);
         }
+
         public void ChangeButtonName(string name)
         {
             button1.Text = name + " Saldır";
@@ -106,10 +94,7 @@ namespace amiral_battı_oyunu
          private void butoneslestirme(Button Gemi)
          {
 
-             int i, j;
-             String GemiHarfKonumu = "";
-             int GemiSayiKonumu = 0;
-             int mayınyenikonum = 0; 
+
 
              for (i = 0; i < 10; i++)
              {
@@ -124,7 +109,7 @@ namespace amiral_battı_oyunu
              {
                  if (Gemi.Location.Y >= butonlarFormKonumuY[j, 0] && Gemi.Location.Y < (butonlarFormKonumuY[j, 0] + 45))
                  {
-                     mayın.Location = new Point(mayınyenikonum+3, butonlarFormKonumuY[j, 0]+3 );
+                     Gemi.Location = new Point(mayınyenikonum+3, butonlarFormKonumuY[j, 0]+3 );
                      GemiSayiKonumu = j ;
                      break;
                  }
@@ -168,7 +153,7 @@ namespace amiral_battı_oyunu
 
              if (i == 10 || j == 10)
              {
-                mayın.Location = new Point(650,280) ;
+                mayın.Location = new Point(650,280) ;// BU DEĞİŞECEK 
                  label47.Text = "";
              }
              else
@@ -177,6 +162,32 @@ namespace amiral_battı_oyunu
              }
 
          }
+        bool butonbos = true;
+        bool konumBos = true;
+
+        public void butonbosmu()
+        {
+
+            string[] konum = new string[13];
+            for (int i = 0; i < konum.Length; i++)
+            {
+                label47.Text = GemiHarfKonumu + (GemiSayiKonumu + 1);
+                (konum[i]) = label47.Text;
+                String b = GemiHarfKonumu + (GemiSayiKonumu + 1);
+                foreach (string eleman in konum)
+                {
+                    if (eleman == b)
+                    {
+                        konumBos = false;
+                    }
+                }
+
+                if (konumBos)
+                {
+
+                }
+            }
+        }
 
         private void oyun_Load(object sender, EventArgs e)
         {
@@ -188,25 +199,39 @@ namespace amiral_battı_oyunu
 
         }
 
-        private void mayın_Click(object sender, EventArgs e)
+        private void mayın2_MouseDown(object sender, MouseEventArgs e)
         {
+            if (e.Button == MouseButtons.Left)
+            {
+                suruklenmedurumu = true; //işlemi burada true diyerek başlatıyoruz.
+                mayın2.Cursor = Cursors.SizeAll; //SizeAll yapmamımızın amacı taşırken hoş görüntü vermek için
+                ilkkonumAl = e.Location; //İlk konuma gördüğünüz gibi değerimizi atıyoruz.
+                aktifgemi = "mayın2";// isimde hata cıkabilir
+            }
 
         }
 
-        private void panel1_Paint_1(object sender, PaintEventArgs e)
+        private void mayın2_MouseMove(object sender, MouseEventArgs e)
         {
+            if (suruklenmedurumu) // suruklenmedurumu==true ile aynı.
+            {
+                mayın2.Left = e.X + mayın2.Left - (ilkkonumAl.X);
+                // button.left ile soldan uzaklığını ayarlıyoruz. Yani e.X dediğimizde buton üzerinde mouseun hareket ettiği pixeli alacağız + butonun
+                // soldan uzaklığını ekliyoruz son olarakta ilk mouseın tıklandığı alanı çıkarıyoruz yoksa butonun en solunda olur mouse imleci. Alttakide aynı şekilde Y koordinati için geçerli
+                mayın2.Top = e.Y + mayın2.Top - (ilkkonumAl.Y);
 
+                label47.Text = mayın2.Top + "," + mayın2.Left;
+                label48.Text = A1.Top + "," + A1.Left;
+            }
         }
 
-        private void label18_Click(object sender, EventArgs e)
+        private void mayın2_MouseUp(object sender, MouseEventArgs e)
         {
-
+            suruklenmedurumu = false; //Sol tuştan elimizi çektik artık yani sürükle işlemi bitti.
+            mayın2.Cursor = Cursors.Default;//İmlecimiz(Cursor) default değerini alıyor.
+            butoneslestirme(mayın2);
         }
 
-        private void label17_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
 
