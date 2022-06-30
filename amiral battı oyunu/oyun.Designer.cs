@@ -3444,7 +3444,7 @@ namespace amiral_battı_oyunu
         private System.Windows.Forms.Button mayın1;
         private System.Windows.Forms.Button mayın3;
         private System.Windows.Forms.Button mayın2;
-        ///  private System.Windows.Forms.Button mayın1;
+      ///  private System.Windows.Forms.Button mayın1;
         private System.Windows.Forms.Label label45;
         private System.Windows.Forms.Label label44;
         private System.Windows.Forms.Label label43;
