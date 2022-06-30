@@ -124,7 +124,7 @@ namespace amiral_battı_oyunu
              {
                  if (Gemi.Location.Y >= butonlarFormKonumuY[j, 0] && Gemi.Location.Y < (butonlarFormKonumuY[j, 0] + 45))
                  {
-                     mayın.Location = new Point(mayınyenikonum, butonlarFormKonumuY[j, 0] );
+                     mayın.Location = new Point(mayınyenikonum+3, butonlarFormKonumuY[j, 0]+3 );
                      GemiSayiKonumu = j ;
                      break;
                  }
@@ -168,7 +168,7 @@ namespace amiral_battı_oyunu
 
              if (i == 10 || j == 10)
              {
-                 mayın.Location = new Point(1025, 100);
+                mayın.Location = new Point(650,280) ;
                  label47.Text = "";
              }
              else
@@ -194,6 +194,16 @@ namespace amiral_battı_oyunu
         }
 
         private void panel1_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label18_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label17_Click(object sender, EventArgs e)
         {
 
         }
