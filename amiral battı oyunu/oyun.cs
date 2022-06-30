@@ -73,7 +73,7 @@ namespace amiral_battı_oyunu
         {
             suruklenmedurumu = false; //Sol tuştan elimizi çektik artık yani sürükle işlemi bitti.
             mayın.Cursor = Cursors.Default;//İmlecimiz(Cursor) default değerini alıyor.
-            //butoneslestirme(mayın); bu kod calısınca hata veriyor mayın kafasına göre gidiyor saana not ahahh
+            butoneslestirme(mayın);
         }
         public void ChangeButtonName(string name)
         {
@@ -126,7 +126,6 @@ namespace amiral_battı_oyunu
                  {
                      mayın.Location = new Point(mayınyenikonum, butonlarFormKonumuY[j, 0] );
                      GemiSayiKonumu = j ;
-
                      break;
                  }
 
