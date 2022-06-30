@@ -423,7 +423,7 @@ namespace amiral_battı_oyunu
             this.A1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.A1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.A1.Location = new System.Drawing.Point(5, 5);
-            this.A1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.A1.Margin = new System.Windows.Forms.Padding(2);
             this.A1.Name = "A1";
             this.A1.Size = new System.Drawing.Size(50, 50);
             this.A1.TabIndex = 185;
@@ -434,7 +434,7 @@ namespace amiral_battı_oyunu
             // 
             this.B1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.B1.Location = new System.Drawing.Point(54, 5);
-            this.B1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.B1.Margin = new System.Windows.Forms.Padding(2);
             this.B1.Name = "B1";
             this.B1.Size = new System.Drawing.Size(50, 50);
             this.B1.TabIndex = 186;
@@ -444,7 +444,7 @@ namespace amiral_battı_oyunu
             // 
             this.C1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.C1.Location = new System.Drawing.Point(101, 5);
-            this.C1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.C1.Margin = new System.Windows.Forms.Padding(2);
             this.C1.Name = "C1";
             this.C1.Size = new System.Drawing.Size(50, 50);
             this.C1.TabIndex = 187;
@@ -454,7 +454,7 @@ namespace amiral_battı_oyunu
             // 
             this.D1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.D1.Location = new System.Drawing.Point(150, 5);
-            this.D1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.D1.Margin = new System.Windows.Forms.Padding(2);
             this.D1.Name = "D1";
             this.D1.Size = new System.Drawing.Size(50, 50);
             this.D1.TabIndex = 188;
@@ -464,7 +464,7 @@ namespace amiral_battı_oyunu
             // 
             this.E1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.E1.Location = new System.Drawing.Point(199, 5);
-            this.E1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.E1.Margin = new System.Windows.Forms.Padding(2);
             this.E1.Name = "E1";
             this.E1.Size = new System.Drawing.Size(50, 50);
             this.E1.TabIndex = 189;
@@ -474,7 +474,7 @@ namespace amiral_battı_oyunu
             // 
             this.F1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.F1.Location = new System.Drawing.Point(248, 5);
-            this.F1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.F1.Margin = new System.Windows.Forms.Padding(2);
             this.F1.Name = "F1";
             this.F1.Size = new System.Drawing.Size(50, 50);
             this.F1.TabIndex = 190;
@@ -484,7 +484,7 @@ namespace amiral_battı_oyunu
             // 
             this.G1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.G1.Location = new System.Drawing.Point(296, 5);
-            this.G1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.G1.Margin = new System.Windows.Forms.Padding(2);
             this.G1.Name = "G1";
             this.G1.Size = new System.Drawing.Size(50, 50);
             this.G1.TabIndex = 191;
@@ -494,7 +494,7 @@ namespace amiral_battı_oyunu
             // 
             this.H1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.H1.Location = new System.Drawing.Point(345, 5);
-            this.H1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.H1.Margin = new System.Windows.Forms.Padding(2);
             this.H1.Name = "H1";
             this.H1.Size = new System.Drawing.Size(50, 50);
             this.H1.TabIndex = 192;
@@ -504,7 +504,7 @@ namespace amiral_battı_oyunu
             // 
             this.I1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.I1.Location = new System.Drawing.Point(394, 5);
-            this.I1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.I1.Margin = new System.Windows.Forms.Padding(2);
             this.I1.Name = "I1";
             this.I1.Size = new System.Drawing.Size(50, 50);
             this.I1.TabIndex = 193;
@@ -514,7 +514,7 @@ namespace amiral_battı_oyunu
             // 
             this.J1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.J1.Location = new System.Drawing.Point(442, 5);
-            this.J1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.J1.Margin = new System.Windows.Forms.Padding(2);
             this.J1.Name = "J1";
             this.J1.Size = new System.Drawing.Size(50, 50);
             this.J1.TabIndex = 194;
@@ -524,7 +524,7 @@ namespace amiral_battı_oyunu
             // 
             this.A2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.A2.Location = new System.Drawing.Point(5, 54);
-            this.A2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.A2.Margin = new System.Windows.Forms.Padding(2);
             this.A2.Name = "A2";
             this.A2.Size = new System.Drawing.Size(50, 50);
             this.A2.TabIndex = 195;
@@ -534,7 +534,7 @@ namespace amiral_battı_oyunu
             // 
             this.B2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.B2.Location = new System.Drawing.Point(54, 54);
-            this.B2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.B2.Margin = new System.Windows.Forms.Padding(2);
             this.B2.Name = "B2";
             this.B2.Size = new System.Drawing.Size(50, 50);
             this.B2.TabIndex = 196;
@@ -544,7 +544,7 @@ namespace amiral_battı_oyunu
             // 
             this.C2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.C2.Location = new System.Drawing.Point(101, 54);
-            this.C2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.C2.Margin = new System.Windows.Forms.Padding(2);
             this.C2.Name = "C2";
             this.C2.Size = new System.Drawing.Size(50, 50);
             this.C2.TabIndex = 197;
@@ -554,7 +554,7 @@ namespace amiral_battı_oyunu
             // 
             this.D2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.D2.Location = new System.Drawing.Point(150, 54);
-            this.D2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.D2.Margin = new System.Windows.Forms.Padding(2);
             this.D2.Name = "D2";
             this.D2.Size = new System.Drawing.Size(50, 50);
             this.D2.TabIndex = 198;
@@ -564,7 +564,7 @@ namespace amiral_battı_oyunu
             // 
             this.E2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.E2.Location = new System.Drawing.Point(199, 54);
-            this.E2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.E2.Margin = new System.Windows.Forms.Padding(2);
             this.E2.Name = "E2";
             this.E2.Size = new System.Drawing.Size(50, 50);
             this.E2.TabIndex = 199;
@@ -574,7 +574,7 @@ namespace amiral_battı_oyunu
             // 
             this.F2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.F2.Location = new System.Drawing.Point(248, 54);
-            this.F2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.F2.Margin = new System.Windows.Forms.Padding(2);
             this.F2.Name = "F2";
             this.F2.Size = new System.Drawing.Size(50, 50);
             this.F2.TabIndex = 200;
@@ -584,7 +584,7 @@ namespace amiral_battı_oyunu
             // 
             this.G2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.G2.Location = new System.Drawing.Point(296, 54);
-            this.G2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.G2.Margin = new System.Windows.Forms.Padding(2);
             this.G2.Name = "G2";
             this.G2.Size = new System.Drawing.Size(50, 50);
             this.G2.TabIndex = 201;
@@ -594,7 +594,7 @@ namespace amiral_battı_oyunu
             // 
             this.H2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.H2.Location = new System.Drawing.Point(345, 54);
-            this.H2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.H2.Margin = new System.Windows.Forms.Padding(2);
             this.H2.Name = "H2";
             this.H2.Size = new System.Drawing.Size(50, 50);
             this.H2.TabIndex = 202;
@@ -604,7 +604,7 @@ namespace amiral_battı_oyunu
             // 
             this.I2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.I2.Location = new System.Drawing.Point(394, 54);
-            this.I2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.I2.Margin = new System.Windows.Forms.Padding(2);
             this.I2.Name = "I2";
             this.I2.Size = new System.Drawing.Size(50, 50);
             this.I2.TabIndex = 203;
@@ -614,7 +614,7 @@ namespace amiral_battı_oyunu
             // 
             this.J2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.J2.Location = new System.Drawing.Point(442, 54);
-            this.J2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.J2.Margin = new System.Windows.Forms.Padding(2);
             this.J2.Name = "J2";
             this.J2.Size = new System.Drawing.Size(50, 50);
             this.J2.TabIndex = 204;
@@ -624,7 +624,7 @@ namespace amiral_battı_oyunu
             // 
             this.A3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.A3.Location = new System.Drawing.Point(5, 103);
-            this.A3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.A3.Margin = new System.Windows.Forms.Padding(2);
             this.A3.Name = "A3";
             this.A3.Size = new System.Drawing.Size(50, 50);
             this.A3.TabIndex = 205;
@@ -634,7 +634,7 @@ namespace amiral_battı_oyunu
             // 
             this.B3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.B3.Location = new System.Drawing.Point(54, 103);
-            this.B3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.B3.Margin = new System.Windows.Forms.Padding(2);
             this.B3.Name = "B3";
             this.B3.Size = new System.Drawing.Size(50, 50);
             this.B3.TabIndex = 206;
@@ -644,7 +644,7 @@ namespace amiral_battı_oyunu
             // 
             this.C3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.C3.Location = new System.Drawing.Point(101, 103);
-            this.C3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.C3.Margin = new System.Windows.Forms.Padding(2);
             this.C3.Name = "C3";
             this.C3.Size = new System.Drawing.Size(50, 50);
             this.C3.TabIndex = 207;
@@ -654,7 +654,7 @@ namespace amiral_battı_oyunu
             // 
             this.D3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.D3.Location = new System.Drawing.Point(150, 103);
-            this.D3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.D3.Margin = new System.Windows.Forms.Padding(2);
             this.D3.Name = "D3";
             this.D3.Size = new System.Drawing.Size(50, 50);
             this.D3.TabIndex = 208;
@@ -664,7 +664,7 @@ namespace amiral_battı_oyunu
             // 
             this.E3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.E3.Location = new System.Drawing.Point(199, 103);
-            this.E3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.E3.Margin = new System.Windows.Forms.Padding(2);
             this.E3.Name = "E3";
             this.E3.Size = new System.Drawing.Size(50, 50);
             this.E3.TabIndex = 209;
@@ -674,7 +674,7 @@ namespace amiral_battı_oyunu
             // 
             this.F3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.F3.Location = new System.Drawing.Point(248, 103);
-            this.F3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.F3.Margin = new System.Windows.Forms.Padding(2);
             this.F3.Name = "F3";
             this.F3.Size = new System.Drawing.Size(50, 50);
             this.F3.TabIndex = 210;
@@ -684,7 +684,7 @@ namespace amiral_battı_oyunu
             // 
             this.G3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.G3.Location = new System.Drawing.Point(296, 103);
-            this.G3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.G3.Margin = new System.Windows.Forms.Padding(2);
             this.G3.Name = "G3";
             this.G3.Size = new System.Drawing.Size(50, 50);
             this.G3.TabIndex = 211;
@@ -694,7 +694,7 @@ namespace amiral_battı_oyunu
             // 
             this.H3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.H3.Location = new System.Drawing.Point(345, 103);
-            this.H3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.H3.Margin = new System.Windows.Forms.Padding(2);
             this.H3.Name = "H3";
             this.H3.Size = new System.Drawing.Size(50, 50);
             this.H3.TabIndex = 212;
@@ -704,7 +704,7 @@ namespace amiral_battı_oyunu
             // 
             this.I3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.I3.Location = new System.Drawing.Point(394, 103);
-            this.I3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.I3.Margin = new System.Windows.Forms.Padding(2);
             this.I3.Name = "I3";
             this.I3.Size = new System.Drawing.Size(50, 50);
             this.I3.TabIndex = 213;
@@ -714,7 +714,7 @@ namespace amiral_battı_oyunu
             // 
             this.J3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.J3.Location = new System.Drawing.Point(442, 103);
-            this.J3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.J3.Margin = new System.Windows.Forms.Padding(2);
             this.J3.Name = "J3";
             this.J3.Size = new System.Drawing.Size(50, 50);
             this.J3.TabIndex = 214;
@@ -724,7 +724,7 @@ namespace amiral_battı_oyunu
             // 
             this.A4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.A4.Location = new System.Drawing.Point(5, 152);
-            this.A4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.A4.Margin = new System.Windows.Forms.Padding(2);
             this.A4.Name = "A4";
             this.A4.Size = new System.Drawing.Size(50, 50);
             this.A4.TabIndex = 215;
@@ -734,7 +734,7 @@ namespace amiral_battı_oyunu
             // 
             this.B4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.B4.Location = new System.Drawing.Point(54, 152);
-            this.B4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.B4.Margin = new System.Windows.Forms.Padding(2);
             this.B4.Name = "B4";
             this.B4.Size = new System.Drawing.Size(50, 50);
             this.B4.TabIndex = 216;
@@ -744,7 +744,7 @@ namespace amiral_battı_oyunu
             // 
             this.C4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.C4.Location = new System.Drawing.Point(101, 152);
-            this.C4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.C4.Margin = new System.Windows.Forms.Padding(2);
             this.C4.Name = "C4";
             this.C4.Size = new System.Drawing.Size(50, 50);
             this.C4.TabIndex = 217;
@@ -754,7 +754,7 @@ namespace amiral_battı_oyunu
             // 
             this.D4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.D4.Location = new System.Drawing.Point(150, 152);
-            this.D4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.D4.Margin = new System.Windows.Forms.Padding(2);
             this.D4.Name = "D4";
             this.D4.Size = new System.Drawing.Size(50, 50);
             this.D4.TabIndex = 218;
@@ -764,7 +764,7 @@ namespace amiral_battı_oyunu
             // 
             this.E4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.E4.Location = new System.Drawing.Point(199, 152);
-            this.E4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.E4.Margin = new System.Windows.Forms.Padding(2);
             this.E4.Name = "E4";
             this.E4.Size = new System.Drawing.Size(50, 50);
             this.E4.TabIndex = 219;
@@ -774,7 +774,7 @@ namespace amiral_battı_oyunu
             // 
             this.F4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.F4.Location = new System.Drawing.Point(248, 152);
-            this.F4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.F4.Margin = new System.Windows.Forms.Padding(2);
             this.F4.Name = "F4";
             this.F4.Size = new System.Drawing.Size(50, 50);
             this.F4.TabIndex = 220;
@@ -784,7 +784,7 @@ namespace amiral_battı_oyunu
             // 
             this.G4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.G4.Location = new System.Drawing.Point(296, 152);
-            this.G4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.G4.Margin = new System.Windows.Forms.Padding(2);
             this.G4.Name = "G4";
             this.G4.Size = new System.Drawing.Size(50, 50);
             this.G4.TabIndex = 221;
@@ -794,7 +794,7 @@ namespace amiral_battı_oyunu
             // 
             this.H4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.H4.Location = new System.Drawing.Point(345, 152);
-            this.H4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.H4.Margin = new System.Windows.Forms.Padding(2);
             this.H4.Name = "H4";
             this.H4.Size = new System.Drawing.Size(50, 50);
             this.H4.TabIndex = 222;
@@ -804,7 +804,7 @@ namespace amiral_battı_oyunu
             // 
             this.I4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.I4.Location = new System.Drawing.Point(394, 152);
-            this.I4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.I4.Margin = new System.Windows.Forms.Padding(2);
             this.I4.Name = "I4";
             this.I4.Size = new System.Drawing.Size(50, 50);
             this.I4.TabIndex = 223;
@@ -814,7 +814,7 @@ namespace amiral_battı_oyunu
             // 
             this.J4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.J4.Location = new System.Drawing.Point(442, 152);
-            this.J4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.J4.Margin = new System.Windows.Forms.Padding(2);
             this.J4.Name = "J4";
             this.J4.Size = new System.Drawing.Size(50, 50);
             this.J4.TabIndex = 224;
@@ -824,7 +824,7 @@ namespace amiral_battı_oyunu
             // 
             this.A5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.A5.Location = new System.Drawing.Point(5, 200);
-            this.A5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.A5.Margin = new System.Windows.Forms.Padding(2);
             this.A5.Name = "A5";
             this.A5.Size = new System.Drawing.Size(50, 50);
             this.A5.TabIndex = 225;
@@ -834,7 +834,7 @@ namespace amiral_battı_oyunu
             // 
             this.B5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.B5.Location = new System.Drawing.Point(54, 200);
-            this.B5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.B5.Margin = new System.Windows.Forms.Padding(2);
             this.B5.Name = "B5";
             this.B5.Size = new System.Drawing.Size(50, 50);
             this.B5.TabIndex = 226;
@@ -844,7 +844,7 @@ namespace amiral_battı_oyunu
             // 
             this.C5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.C5.Location = new System.Drawing.Point(101, 200);
-            this.C5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.C5.Margin = new System.Windows.Forms.Padding(2);
             this.C5.Name = "C5";
             this.C5.Size = new System.Drawing.Size(50, 50);
             this.C5.TabIndex = 227;
@@ -854,7 +854,7 @@ namespace amiral_battı_oyunu
             // 
             this.D5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.D5.Location = new System.Drawing.Point(150, 200);
-            this.D5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.D5.Margin = new System.Windows.Forms.Padding(2);
             this.D5.Name = "D5";
             this.D5.Size = new System.Drawing.Size(50, 50);
             this.D5.TabIndex = 228;
@@ -864,7 +864,7 @@ namespace amiral_battı_oyunu
             // 
             this.E5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.E5.Location = new System.Drawing.Point(199, 200);
-            this.E5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.E5.Margin = new System.Windows.Forms.Padding(2);
             this.E5.Name = "E5";
             this.E5.Size = new System.Drawing.Size(50, 50);
             this.E5.TabIndex = 229;
@@ -874,7 +874,7 @@ namespace amiral_battı_oyunu
             // 
             this.F5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.F5.Location = new System.Drawing.Point(248, 200);
-            this.F5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.F5.Margin = new System.Windows.Forms.Padding(2);
             this.F5.Name = "F5";
             this.F5.Size = new System.Drawing.Size(50, 50);
             this.F5.TabIndex = 230;
@@ -884,7 +884,7 @@ namespace amiral_battı_oyunu
             // 
             this.G5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.G5.Location = new System.Drawing.Point(296, 200);
-            this.G5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.G5.Margin = new System.Windows.Forms.Padding(2);
             this.G5.Name = "G5";
             this.G5.Size = new System.Drawing.Size(50, 50);
             this.G5.TabIndex = 231;
@@ -894,7 +894,7 @@ namespace amiral_battı_oyunu
             // 
             this.H5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.H5.Location = new System.Drawing.Point(345, 200);
-            this.H5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.H5.Margin = new System.Windows.Forms.Padding(2);
             this.H5.Name = "H5";
             this.H5.Size = new System.Drawing.Size(50, 50);
             this.H5.TabIndex = 232;
@@ -904,7 +904,7 @@ namespace amiral_battı_oyunu
             // 
             this.I5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.I5.Location = new System.Drawing.Point(394, 200);
-            this.I5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.I5.Margin = new System.Windows.Forms.Padding(2);
             this.I5.Name = "I5";
             this.I5.Size = new System.Drawing.Size(50, 50);
             this.I5.TabIndex = 233;
@@ -914,7 +914,7 @@ namespace amiral_battı_oyunu
             // 
             this.J5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.J5.Location = new System.Drawing.Point(442, 200);
-            this.J5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.J5.Margin = new System.Windows.Forms.Padding(2);
             this.J5.Name = "J5";
             this.J5.Size = new System.Drawing.Size(50, 50);
             this.J5.TabIndex = 234;
@@ -924,7 +924,7 @@ namespace amiral_battı_oyunu
             // 
             this.A6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.A6.Location = new System.Drawing.Point(5, 249);
-            this.A6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.A6.Margin = new System.Windows.Forms.Padding(2);
             this.A6.Name = "A6";
             this.A6.Size = new System.Drawing.Size(50, 50);
             this.A6.TabIndex = 235;
@@ -934,7 +934,7 @@ namespace amiral_battı_oyunu
             // 
             this.B6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.B6.Location = new System.Drawing.Point(54, 249);
-            this.B6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.B6.Margin = new System.Windows.Forms.Padding(2);
             this.B6.Name = "B6";
             this.B6.Size = new System.Drawing.Size(50, 50);
             this.B6.TabIndex = 236;
@@ -944,7 +944,7 @@ namespace amiral_battı_oyunu
             // 
             this.C6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.C6.Location = new System.Drawing.Point(101, 249);
-            this.C6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.C6.Margin = new System.Windows.Forms.Padding(2);
             this.C6.Name = "C6";
             this.C6.Size = new System.Drawing.Size(50, 50);
             this.C6.TabIndex = 237;
@@ -954,7 +954,7 @@ namespace amiral_battı_oyunu
             // 
             this.D6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.D6.Location = new System.Drawing.Point(150, 249);
-            this.D6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.D6.Margin = new System.Windows.Forms.Padding(2);
             this.D6.Name = "D6";
             this.D6.Size = new System.Drawing.Size(50, 50);
             this.D6.TabIndex = 238;
@@ -964,7 +964,7 @@ namespace amiral_battı_oyunu
             // 
             this.E6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.E6.Location = new System.Drawing.Point(199, 249);
-            this.E6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.E6.Margin = new System.Windows.Forms.Padding(2);
             this.E6.Name = "E6";
             this.E6.Size = new System.Drawing.Size(50, 50);
             this.E6.TabIndex = 239;
@@ -974,7 +974,7 @@ namespace amiral_battı_oyunu
             // 
             this.F6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.F6.Location = new System.Drawing.Point(248, 249);
-            this.F6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.F6.Margin = new System.Windows.Forms.Padding(2);
             this.F6.Name = "F6";
             this.F6.Size = new System.Drawing.Size(50, 50);
             this.F6.TabIndex = 240;
@@ -984,7 +984,7 @@ namespace amiral_battı_oyunu
             // 
             this.G6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.G6.Location = new System.Drawing.Point(296, 249);
-            this.G6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.G6.Margin = new System.Windows.Forms.Padding(2);
             this.G6.Name = "G6";
             this.G6.Size = new System.Drawing.Size(50, 50);
             this.G6.TabIndex = 241;
@@ -994,7 +994,7 @@ namespace amiral_battı_oyunu
             // 
             this.H6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.H6.Location = new System.Drawing.Point(345, 249);
-            this.H6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.H6.Margin = new System.Windows.Forms.Padding(2);
             this.H6.Name = "H6";
             this.H6.Size = new System.Drawing.Size(50, 50);
             this.H6.TabIndex = 242;
@@ -1004,7 +1004,7 @@ namespace amiral_battı_oyunu
             // 
             this.I6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.I6.Location = new System.Drawing.Point(394, 249);
-            this.I6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.I6.Margin = new System.Windows.Forms.Padding(2);
             this.I6.Name = "I6";
             this.I6.Size = new System.Drawing.Size(50, 50);
             this.I6.TabIndex = 243;
@@ -1014,7 +1014,7 @@ namespace amiral_battı_oyunu
             // 
             this.J6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.J6.Location = new System.Drawing.Point(442, 249);
-            this.J6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.J6.Margin = new System.Windows.Forms.Padding(2);
             this.J6.Name = "J6";
             this.J6.Size = new System.Drawing.Size(50, 50);
             this.J6.TabIndex = 244;
@@ -1024,7 +1024,7 @@ namespace amiral_battı_oyunu
             // 
             this.A7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.A7.Location = new System.Drawing.Point(5, 298);
-            this.A7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.A7.Margin = new System.Windows.Forms.Padding(2);
             this.A7.Name = "A7";
             this.A7.Size = new System.Drawing.Size(50, 50);
             this.A7.TabIndex = 245;
@@ -1034,7 +1034,7 @@ namespace amiral_battı_oyunu
             // 
             this.B7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.B7.Location = new System.Drawing.Point(54, 298);
-            this.B7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.B7.Margin = new System.Windows.Forms.Padding(2);
             this.B7.Name = "B7";
             this.B7.Size = new System.Drawing.Size(50, 50);
             this.B7.TabIndex = 246;
@@ -1044,7 +1044,7 @@ namespace amiral_battı_oyunu
             // 
             this.C7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.C7.Location = new System.Drawing.Point(101, 298);
-            this.C7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.C7.Margin = new System.Windows.Forms.Padding(2);
             this.C7.Name = "C7";
             this.C7.Size = new System.Drawing.Size(50, 50);
             this.C7.TabIndex = 247;
@@ -1054,7 +1054,7 @@ namespace amiral_battı_oyunu
             // 
             this.D7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.D7.Location = new System.Drawing.Point(150, 298);
-            this.D7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.D7.Margin = new System.Windows.Forms.Padding(2);
             this.D7.Name = "D7";
             this.D7.Size = new System.Drawing.Size(50, 50);
             this.D7.TabIndex = 248;
@@ -1064,7 +1064,7 @@ namespace amiral_battı_oyunu
             // 
             this.E7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.E7.Location = new System.Drawing.Point(199, 298);
-            this.E7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.E7.Margin = new System.Windows.Forms.Padding(2);
             this.E7.Name = "E7";
             this.E7.Size = new System.Drawing.Size(50, 50);
             this.E7.TabIndex = 249;
@@ -1074,7 +1074,7 @@ namespace amiral_battı_oyunu
             // 
             this.F7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.F7.Location = new System.Drawing.Point(248, 298);
-            this.F7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.F7.Margin = new System.Windows.Forms.Padding(2);
             this.F7.Name = "F7";
             this.F7.Size = new System.Drawing.Size(50, 50);
             this.F7.TabIndex = 250;
@@ -1084,7 +1084,7 @@ namespace amiral_battı_oyunu
             // 
             this.G7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.G7.Location = new System.Drawing.Point(296, 298);
-            this.G7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.G7.Margin = new System.Windows.Forms.Padding(2);
             this.G7.Name = "G7";
             this.G7.Size = new System.Drawing.Size(50, 50);
             this.G7.TabIndex = 251;
@@ -1094,7 +1094,7 @@ namespace amiral_battı_oyunu
             // 
             this.H7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.H7.Location = new System.Drawing.Point(345, 298);
-            this.H7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.H7.Margin = new System.Windows.Forms.Padding(2);
             this.H7.Name = "H7";
             this.H7.Size = new System.Drawing.Size(50, 50);
             this.H7.TabIndex = 252;
@@ -1104,7 +1104,7 @@ namespace amiral_battı_oyunu
             // 
             this.I7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.I7.Location = new System.Drawing.Point(394, 298);
-            this.I7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.I7.Margin = new System.Windows.Forms.Padding(2);
             this.I7.Name = "I7";
             this.I7.Size = new System.Drawing.Size(50, 50);
             this.I7.TabIndex = 253;
@@ -1114,7 +1114,7 @@ namespace amiral_battı_oyunu
             // 
             this.J7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.J7.Location = new System.Drawing.Point(442, 298);
-            this.J7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.J7.Margin = new System.Windows.Forms.Padding(2);
             this.J7.Name = "J7";
             this.J7.Size = new System.Drawing.Size(50, 50);
             this.J7.TabIndex = 254;
@@ -1124,7 +1124,7 @@ namespace amiral_battı_oyunu
             // 
             this.A8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.A8.Location = new System.Drawing.Point(5, 347);
-            this.A8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.A8.Margin = new System.Windows.Forms.Padding(2);
             this.A8.Name = "A8";
             this.A8.Size = new System.Drawing.Size(50, 50);
             this.A8.TabIndex = 255;
@@ -1134,7 +1134,7 @@ namespace amiral_battı_oyunu
             // 
             this.B8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.B8.Location = new System.Drawing.Point(54, 347);
-            this.B8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.B8.Margin = new System.Windows.Forms.Padding(2);
             this.B8.Name = "B8";
             this.B8.Size = new System.Drawing.Size(50, 50);
             this.B8.TabIndex = 256;
@@ -1144,7 +1144,7 @@ namespace amiral_battı_oyunu
             // 
             this.C8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.C8.Location = new System.Drawing.Point(101, 347);
-            this.C8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.C8.Margin = new System.Windows.Forms.Padding(2);
             this.C8.Name = "C8";
             this.C8.Size = new System.Drawing.Size(50, 50);
             this.C8.TabIndex = 257;
@@ -1154,7 +1154,7 @@ namespace amiral_battı_oyunu
             // 
             this.D8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.D8.Location = new System.Drawing.Point(150, 347);
-            this.D8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.D8.Margin = new System.Windows.Forms.Padding(2);
             this.D8.Name = "D8";
             this.D8.Size = new System.Drawing.Size(50, 50);
             this.D8.TabIndex = 258;
@@ -1164,7 +1164,7 @@ namespace amiral_battı_oyunu
             // 
             this.E8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.E8.Location = new System.Drawing.Point(199, 347);
-            this.E8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.E8.Margin = new System.Windows.Forms.Padding(2);
             this.E8.Name = "E8";
             this.E8.Size = new System.Drawing.Size(50, 50);
             this.E8.TabIndex = 259;
@@ -1174,7 +1174,7 @@ namespace amiral_battı_oyunu
             // 
             this.F8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.F8.Location = new System.Drawing.Point(248, 347);
-            this.F8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.F8.Margin = new System.Windows.Forms.Padding(2);
             this.F8.Name = "F8";
             this.F8.Size = new System.Drawing.Size(50, 50);
             this.F8.TabIndex = 260;
@@ -1184,7 +1184,7 @@ namespace amiral_battı_oyunu
             // 
             this.G8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.G8.Location = new System.Drawing.Point(296, 347);
-            this.G8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.G8.Margin = new System.Windows.Forms.Padding(2);
             this.G8.Name = "G8";
             this.G8.Size = new System.Drawing.Size(50, 50);
             this.G8.TabIndex = 261;
@@ -1194,7 +1194,7 @@ namespace amiral_battı_oyunu
             // 
             this.H8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.H8.Location = new System.Drawing.Point(345, 347);
-            this.H8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.H8.Margin = new System.Windows.Forms.Padding(2);
             this.H8.Name = "H8";
             this.H8.Size = new System.Drawing.Size(50, 50);
             this.H8.TabIndex = 262;
@@ -1204,7 +1204,7 @@ namespace amiral_battı_oyunu
             // 
             this.I8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.I8.Location = new System.Drawing.Point(394, 347);
-            this.I8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.I8.Margin = new System.Windows.Forms.Padding(2);
             this.I8.Name = "I8";
             this.I8.Size = new System.Drawing.Size(50, 50);
             this.I8.TabIndex = 263;
@@ -1214,7 +1214,7 @@ namespace amiral_battı_oyunu
             // 
             this.J8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.J8.Location = new System.Drawing.Point(442, 347);
-            this.J8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.J8.Margin = new System.Windows.Forms.Padding(2);
             this.J8.Name = "J8";
             this.J8.Size = new System.Drawing.Size(50, 50);
             this.J8.TabIndex = 264;
@@ -1224,7 +1224,7 @@ namespace amiral_battı_oyunu
             // 
             this.A9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.A9.Location = new System.Drawing.Point(5, 396);
-            this.A9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.A9.Margin = new System.Windows.Forms.Padding(2);
             this.A9.Name = "A9";
             this.A9.Size = new System.Drawing.Size(50, 50);
             this.A9.TabIndex = 265;
@@ -1234,7 +1234,7 @@ namespace amiral_battı_oyunu
             // 
             this.B9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.B9.Location = new System.Drawing.Point(54, 396);
-            this.B9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.B9.Margin = new System.Windows.Forms.Padding(2);
             this.B9.Name = "B9";
             this.B9.Size = new System.Drawing.Size(50, 50);
             this.B9.TabIndex = 266;
@@ -1244,7 +1244,7 @@ namespace amiral_battı_oyunu
             // 
             this.C9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.C9.Location = new System.Drawing.Point(101, 396);
-            this.C9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.C9.Margin = new System.Windows.Forms.Padding(2);
             this.C9.Name = "C9";
             this.C9.Size = new System.Drawing.Size(50, 50);
             this.C9.TabIndex = 267;
@@ -1254,7 +1254,7 @@ namespace amiral_battı_oyunu
             // 
             this.D9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.D9.Location = new System.Drawing.Point(150, 396);
-            this.D9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.D9.Margin = new System.Windows.Forms.Padding(2);
             this.D9.Name = "D9";
             this.D9.Size = new System.Drawing.Size(50, 50);
             this.D9.TabIndex = 268;
@@ -1264,7 +1264,7 @@ namespace amiral_battı_oyunu
             // 
             this.E9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.E9.Location = new System.Drawing.Point(199, 396);
-            this.E9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.E9.Margin = new System.Windows.Forms.Padding(2);
             this.E9.Name = "E9";
             this.E9.Size = new System.Drawing.Size(50, 50);
             this.E9.TabIndex = 269;
@@ -1274,7 +1274,7 @@ namespace amiral_battı_oyunu
             // 
             this.F9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.F9.Location = new System.Drawing.Point(248, 396);
-            this.F9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.F9.Margin = new System.Windows.Forms.Padding(2);
             this.F9.Name = "F9";
             this.F9.Size = new System.Drawing.Size(50, 50);
             this.F9.TabIndex = 270;
@@ -1284,7 +1284,7 @@ namespace amiral_battı_oyunu
             // 
             this.G9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.G9.Location = new System.Drawing.Point(296, 396);
-            this.G9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.G9.Margin = new System.Windows.Forms.Padding(2);
             this.G9.Name = "G9";
             this.G9.Size = new System.Drawing.Size(50, 50);
             this.G9.TabIndex = 271;
@@ -1294,7 +1294,7 @@ namespace amiral_battı_oyunu
             // 
             this.H9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.H9.Location = new System.Drawing.Point(345, 396);
-            this.H9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.H9.Margin = new System.Windows.Forms.Padding(2);
             this.H9.Name = "H9";
             this.H9.Size = new System.Drawing.Size(50, 50);
             this.H9.TabIndex = 272;
@@ -1304,7 +1304,7 @@ namespace amiral_battı_oyunu
             // 
             this.I9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.I9.Location = new System.Drawing.Point(394, 396);
-            this.I9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.I9.Margin = new System.Windows.Forms.Padding(2);
             this.I9.Name = "I9";
             this.I9.Size = new System.Drawing.Size(50, 50);
             this.I9.TabIndex = 273;
@@ -1314,7 +1314,7 @@ namespace amiral_battı_oyunu
             // 
             this.J9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.J9.Location = new System.Drawing.Point(442, 396);
-            this.J9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.J9.Margin = new System.Windows.Forms.Padding(2);
             this.J9.Name = "J9";
             this.J9.Size = new System.Drawing.Size(50, 50);
             this.J9.TabIndex = 274;
@@ -1324,7 +1324,7 @@ namespace amiral_battı_oyunu
             // 
             this.A10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.A10.Location = new System.Drawing.Point(5, 444);
-            this.A10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.A10.Margin = new System.Windows.Forms.Padding(2);
             this.A10.Name = "A10";
             this.A10.Size = new System.Drawing.Size(50, 50);
             this.A10.TabIndex = 275;
@@ -1334,7 +1334,7 @@ namespace amiral_battı_oyunu
             // 
             this.B10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.B10.Location = new System.Drawing.Point(54, 444);
-            this.B10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.B10.Margin = new System.Windows.Forms.Padding(2);
             this.B10.Name = "B10";
             this.B10.Size = new System.Drawing.Size(50, 50);
             this.B10.TabIndex = 276;
@@ -1344,7 +1344,7 @@ namespace amiral_battı_oyunu
             // 
             this.C10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.C10.Location = new System.Drawing.Point(101, 444);
-            this.C10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.C10.Margin = new System.Windows.Forms.Padding(2);
             this.C10.Name = "C10";
             this.C10.Size = new System.Drawing.Size(50, 50);
             this.C10.TabIndex = 277;
@@ -1354,7 +1354,7 @@ namespace amiral_battı_oyunu
             // 
             this.D10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.D10.Location = new System.Drawing.Point(150, 444);
-            this.D10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.D10.Margin = new System.Windows.Forms.Padding(2);
             this.D10.Name = "D10";
             this.D10.Size = new System.Drawing.Size(50, 50);
             this.D10.TabIndex = 278;
@@ -1364,7 +1364,7 @@ namespace amiral_battı_oyunu
             // 
             this.E10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.E10.Location = new System.Drawing.Point(199, 444);
-            this.E10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.E10.Margin = new System.Windows.Forms.Padding(2);
             this.E10.Name = "E10";
             this.E10.Size = new System.Drawing.Size(50, 50);
             this.E10.TabIndex = 279;
@@ -1374,7 +1374,7 @@ namespace amiral_battı_oyunu
             // 
             this.F10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.F10.Location = new System.Drawing.Point(248, 444);
-            this.F10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.F10.Margin = new System.Windows.Forms.Padding(2);
             this.F10.Name = "F10";
             this.F10.Size = new System.Drawing.Size(50, 50);
             this.F10.TabIndex = 280;
@@ -1384,7 +1384,7 @@ namespace amiral_battı_oyunu
             // 
             this.G10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.G10.Location = new System.Drawing.Point(296, 444);
-            this.G10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.G10.Margin = new System.Windows.Forms.Padding(2);
             this.G10.Name = "G10";
             this.G10.Size = new System.Drawing.Size(50, 50);
             this.G10.TabIndex = 281;
@@ -1394,7 +1394,7 @@ namespace amiral_battı_oyunu
             // 
             this.H10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.H10.Location = new System.Drawing.Point(345, 444);
-            this.H10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.H10.Margin = new System.Windows.Forms.Padding(2);
             this.H10.Name = "H10";
             this.H10.Size = new System.Drawing.Size(50, 50);
             this.H10.TabIndex = 282;
@@ -1404,7 +1404,7 @@ namespace amiral_battı_oyunu
             // 
             this.I10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.I10.Location = new System.Drawing.Point(394, 444);
-            this.I10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.I10.Margin = new System.Windows.Forms.Padding(2);
             this.I10.Name = "I10";
             this.I10.Size = new System.Drawing.Size(50, 50);
             this.I10.TabIndex = 283;
@@ -1414,7 +1414,7 @@ namespace amiral_battı_oyunu
             // 
             this.J10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.J10.Location = new System.Drawing.Point(442, 444);
-            this.J10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.J10.Margin = new System.Windows.Forms.Padding(2);
             this.J10.Name = "J10";
             this.J10.Size = new System.Drawing.Size(50, 50);
             this.J10.TabIndex = 284;
@@ -1647,7 +1647,7 @@ namespace amiral_battı_oyunu
             this.panel1.Controls.Add(this.I10);
             this.panel1.Controls.Add(this.J10);
             this.panel1.Location = new System.Drawing.Point(30, 38);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(497, 503);
             this.panel1.TabIndex = 416;
@@ -1659,7 +1659,7 @@ namespace amiral_battı_oyunu
             this.mayın2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.mayın2.Image = ((System.Drawing.Image)(resources.GetObject("mayın2.Image")));
             this.mayın2.Location = new System.Drawing.Point(741, 281);
-            this.mayın2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mayın2.Margin = new System.Windows.Forms.Padding(2);
             this.mayın2.Name = "mayın2";
             this.mayın2.Size = new System.Drawing.Size(44, 44);
             this.mayın2.TabIndex = 297;
@@ -1670,7 +1670,7 @@ namespace amiral_battı_oyunu
             this.mayın3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.mayın3.Image = ((System.Drawing.Image)(resources.GetObject("mayın3.Image")));
             this.mayın3.Location = new System.Drawing.Point(698, 280);
-            this.mayın3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mayın3.Margin = new System.Windows.Forms.Padding(2);
             this.mayın3.Name = "mayın3";
             this.mayın3.Size = new System.Drawing.Size(44, 44);
             this.mayın3.TabIndex = 298;
@@ -1681,7 +1681,7 @@ namespace amiral_battı_oyunu
             this.mayingemisi1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.mayingemisi1.Image = ((System.Drawing.Image)(resources.GetObject("mayingemisi1.Image")));
             this.mayingemisi1.Location = new System.Drawing.Point(706, 78);
-            this.mayingemisi1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mayingemisi1.Margin = new System.Windows.Forms.Padding(2);
             this.mayingemisi1.Name = "mayingemisi1";
             this.mayingemisi1.Size = new System.Drawing.Size(75, 41);
             this.mayingemisi1.TabIndex = 299;
@@ -1692,7 +1692,7 @@ namespace amiral_battı_oyunu
             this.mayingemisi4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.mayingemisi4.Image = ((System.Drawing.Image)(resources.GetObject("mayingemisi4.Image")));
             this.mayingemisi4.Location = new System.Drawing.Point(706, 204);
-            this.mayingemisi4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mayingemisi4.Margin = new System.Windows.Forms.Padding(2);
             this.mayingemisi4.Name = "mayingemisi4";
             this.mayingemisi4.Size = new System.Drawing.Size(75, 41);
             this.mayingemisi4.TabIndex = 302;
@@ -1703,7 +1703,7 @@ namespace amiral_battı_oyunu
             this.mayingemisi3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.mayingemisi3.Image = ((System.Drawing.Image)(resources.GetObject("mayingemisi3.Image")));
             this.mayingemisi3.Location = new System.Drawing.Point(706, 162);
-            this.mayingemisi3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mayingemisi3.Margin = new System.Windows.Forms.Padding(2);
             this.mayingemisi3.Name = "mayingemisi3";
             this.mayingemisi3.Size = new System.Drawing.Size(75, 41);
             this.mayingemisi3.TabIndex = 303;
@@ -1714,7 +1714,7 @@ namespace amiral_battı_oyunu
             this.mayingemisi2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.mayingemisi2.Image = ((System.Drawing.Image)(resources.GetObject("mayingemisi2.Image")));
             this.mayingemisi2.Location = new System.Drawing.Point(706, 119);
-            this.mayingemisi2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mayingemisi2.Margin = new System.Windows.Forms.Padding(2);
             this.mayingemisi2.Name = "mayingemisi2";
             this.mayingemisi2.Size = new System.Drawing.Size(75, 41);
             this.mayingemisi2.TabIndex = 304;
@@ -1726,7 +1726,7 @@ namespace amiral_battı_oyunu
             this.kruvazör1.BackColor = System.Drawing.Color.Gainsboro;
             this.kruvazör1.Image = ((System.Drawing.Image)(resources.GetObject("kruvazör1.Image")));
             this.kruvazör1.Location = new System.Drawing.Point(533, 288);
-            this.kruvazör1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.kruvazör1.Margin = new System.Windows.Forms.Padding(2);
             this.kruvazör1.Name = "kruvazör1";
             this.kruvazör1.Size = new System.Drawing.Size(112, 41);
             this.kruvazör1.TabIndex = 305;
@@ -1738,7 +1738,7 @@ namespace amiral_battı_oyunu
             this.kruvazör2.BackColor = System.Drawing.Color.Gainsboro;
             this.kruvazör2.Image = ((System.Drawing.Image)(resources.GetObject("kruvazör2.Image")));
             this.kruvazör2.Location = new System.Drawing.Point(533, 334);
-            this.kruvazör2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.kruvazör2.Margin = new System.Windows.Forms.Padding(2);
             this.kruvazör2.Name = "kruvazör2";
             this.kruvazör2.Size = new System.Drawing.Size(112, 41);
             this.kruvazör2.TabIndex = 306;
@@ -1750,7 +1750,7 @@ namespace amiral_battı_oyunu
             this.kruvazör3.BackColor = System.Drawing.Color.Gainsboro;
             this.kruvazör3.Image = ((System.Drawing.Image)(resources.GetObject("kruvazör3.Image")));
             this.kruvazör3.Location = new System.Drawing.Point(533, 243);
-            this.kruvazör3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.kruvazör3.Margin = new System.Windows.Forms.Padding(2);
             this.kruvazör3.Name = "kruvazör3";
             this.kruvazör3.Size = new System.Drawing.Size(112, 41);
             this.kruvazör3.TabIndex = 307;
@@ -1761,7 +1761,7 @@ namespace amiral_battı_oyunu
             this.fırkateyn1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.fırkateyn1.Image = ((System.Drawing.Image)(resources.GetObject("fırkateyn1.Image")));
             this.fırkateyn1.Location = new System.Drawing.Point(528, 72);
-            this.fırkateyn1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.fırkateyn1.Margin = new System.Windows.Forms.Padding(2);
             this.fırkateyn1.Name = "fırkateyn1";
             this.fırkateyn1.Size = new System.Drawing.Size(150, 41);
             this.fırkateyn1.TabIndex = 308;
@@ -1772,7 +1772,7 @@ namespace amiral_battı_oyunu
             this.fırkateyn2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.fırkateyn2.Image = ((System.Drawing.Image)(resources.GetObject("fırkateyn2.Image")));
             this.fırkateyn2.Location = new System.Drawing.Point(528, 113);
-            this.fırkateyn2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.fırkateyn2.Margin = new System.Windows.Forms.Padding(2);
             this.fırkateyn2.Name = "fırkateyn2";
             this.fırkateyn2.Size = new System.Drawing.Size(150, 41);
             this.fırkateyn2.TabIndex = 309;
@@ -1783,7 +1783,7 @@ namespace amiral_battı_oyunu
             this.amiralgemisi.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.amiralgemisi.Image = ((System.Drawing.Image)(resources.GetObject("amiralgemisi.Image")));
             this.amiralgemisi.Location = new System.Drawing.Point(528, 171);
-            this.amiralgemisi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.amiralgemisi.Margin = new System.Windows.Forms.Padding(2);
             this.amiralgemisi.Name = "amiralgemisi";
             this.amiralgemisi.Size = new System.Drawing.Size(150, 41);
             this.amiralgemisi.TabIndex = 310;
@@ -1861,7 +1861,7 @@ namespace amiral_battı_oyunu
             this.mayın.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.mayın.Image = ((System.Drawing.Image)(resources.GetObject("mayın.Image")));
             this.mayın.Location = new System.Drawing.Point(650, 280);
-            this.mayın.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mayın.Margin = new System.Windows.Forms.Padding(2);
             this.mayın.Name = "mayın";
             this.mayın.Size = new System.Drawing.Size(44, 44);
             this.mayın.TabIndex = 418;
@@ -1875,11 +1875,11 @@ namespace amiral_battı_oyunu
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button1.Location = new System.Drawing.Point(669, 472);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(56, 51);
             this.button1.TabIndex = 419;
-            this.button1.Text = "OYUNU BAŞLAT";
+            this.button1.Text = "SELAM";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -2030,7 +2030,7 @@ namespace amiral_battı_oyunu
             this.panel2.Controls.Add(this.button100);
             this.panel2.Controls.Add(this.button101);
             this.panel2.Location = new System.Drawing.Point(886, 10);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(440, 470);
             this.panel2.TabIndex = 422;
@@ -2039,7 +2039,7 @@ namespace amiral_battı_oyunu
             // 
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Location = new System.Drawing.Point(112, 41);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(38, 41);
             this.button2.TabIndex = 187;
@@ -2072,7 +2072,7 @@ namespace amiral_battı_oyunu
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button3.Location = new System.Drawing.Point(38, 41);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(38, 41);
             this.button3.TabIndex = 185;
@@ -2082,7 +2082,7 @@ namespace amiral_battı_oyunu
             // 
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button4.Location = new System.Drawing.Point(75, 41);
-            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(38, 41);
             this.button4.TabIndex = 186;
@@ -2103,7 +2103,7 @@ namespace amiral_battı_oyunu
             // 
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button5.Location = new System.Drawing.Point(150, 41);
-            this.button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button5.Margin = new System.Windows.Forms.Padding(2);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(38, 41);
             this.button5.TabIndex = 188;
@@ -2113,7 +2113,7 @@ namespace amiral_battı_oyunu
             // 
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button6.Location = new System.Drawing.Point(188, 41);
-            this.button6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button6.Margin = new System.Windows.Forms.Padding(2);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(38, 41);
             this.button6.TabIndex = 189;
@@ -2134,7 +2134,7 @@ namespace amiral_battı_oyunu
             // 
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button7.Location = new System.Drawing.Point(225, 41);
-            this.button7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button7.Margin = new System.Windows.Forms.Padding(2);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(38, 41);
             this.button7.TabIndex = 190;
@@ -2144,7 +2144,7 @@ namespace amiral_battı_oyunu
             // 
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button8.Location = new System.Drawing.Point(262, 41);
-            this.button8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button8.Margin = new System.Windows.Forms.Padding(2);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(38, 41);
             this.button8.TabIndex = 191;
@@ -2165,7 +2165,7 @@ namespace amiral_battı_oyunu
             // 
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button9.Location = new System.Drawing.Point(300, 41);
-            this.button9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button9.Margin = new System.Windows.Forms.Padding(2);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(38, 41);
             this.button9.TabIndex = 192;
@@ -2175,7 +2175,7 @@ namespace amiral_battı_oyunu
             // 
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button10.Location = new System.Drawing.Point(338, 41);
-            this.button10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button10.Margin = new System.Windows.Forms.Padding(2);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(38, 41);
             this.button10.TabIndex = 193;
@@ -2196,7 +2196,7 @@ namespace amiral_battı_oyunu
             // 
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button11.Location = new System.Drawing.Point(375, 41);
-            this.button11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button11.Margin = new System.Windows.Forms.Padding(2);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(38, 41);
             this.button11.TabIndex = 194;
@@ -2206,7 +2206,7 @@ namespace amiral_battı_oyunu
             // 
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button12.Location = new System.Drawing.Point(38, 81);
-            this.button12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button12.Margin = new System.Windows.Forms.Padding(2);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(38, 41);
             this.button12.TabIndex = 195;
@@ -2227,7 +2227,7 @@ namespace amiral_battı_oyunu
             // 
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button13.Location = new System.Drawing.Point(75, 81);
-            this.button13.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button13.Margin = new System.Windows.Forms.Padding(2);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(38, 41);
             this.button13.TabIndex = 196;
@@ -2237,7 +2237,7 @@ namespace amiral_battı_oyunu
             // 
             this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button14.Location = new System.Drawing.Point(112, 81);
-            this.button14.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button14.Margin = new System.Windows.Forms.Padding(2);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(38, 41);
             this.button14.TabIndex = 197;
@@ -2258,7 +2258,7 @@ namespace amiral_battı_oyunu
             // 
             this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button15.Location = new System.Drawing.Point(150, 81);
-            this.button15.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button15.Margin = new System.Windows.Forms.Padding(2);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(38, 41);
             this.button15.TabIndex = 198;
@@ -2268,7 +2268,7 @@ namespace amiral_battı_oyunu
             // 
             this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button16.Location = new System.Drawing.Point(188, 81);
-            this.button16.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button16.Margin = new System.Windows.Forms.Padding(2);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(38, 41);
             this.button16.TabIndex = 199;
@@ -2289,7 +2289,7 @@ namespace amiral_battı_oyunu
             // 
             this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button17.Location = new System.Drawing.Point(225, 81);
-            this.button17.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button17.Margin = new System.Windows.Forms.Padding(2);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(38, 41);
             this.button17.TabIndex = 200;
@@ -2299,7 +2299,7 @@ namespace amiral_battı_oyunu
             // 
             this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button18.Location = new System.Drawing.Point(262, 81);
-            this.button18.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button18.Margin = new System.Windows.Forms.Padding(2);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(38, 41);
             this.button18.TabIndex = 201;
@@ -2320,7 +2320,7 @@ namespace amiral_battı_oyunu
             // 
             this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button19.Location = new System.Drawing.Point(300, 81);
-            this.button19.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button19.Margin = new System.Windows.Forms.Padding(2);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(38, 41);
             this.button19.TabIndex = 202;
@@ -2330,7 +2330,7 @@ namespace amiral_battı_oyunu
             // 
             this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button20.Location = new System.Drawing.Point(338, 81);
-            this.button20.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button20.Margin = new System.Windows.Forms.Padding(2);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(38, 41);
             this.button20.TabIndex = 203;
@@ -2340,7 +2340,7 @@ namespace amiral_battı_oyunu
             // 
             this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button21.Location = new System.Drawing.Point(375, 81);
-            this.button21.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button21.Margin = new System.Windows.Forms.Padding(2);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(38, 41);
             this.button21.TabIndex = 204;
@@ -2350,7 +2350,7 @@ namespace amiral_battı_oyunu
             // 
             this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button22.Location = new System.Drawing.Point(38, 122);
-            this.button22.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button22.Margin = new System.Windows.Forms.Padding(2);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(38, 41);
             this.button22.TabIndex = 205;
@@ -2360,7 +2360,7 @@ namespace amiral_battı_oyunu
             // 
             this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button23.Location = new System.Drawing.Point(75, 122);
-            this.button23.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button23.Margin = new System.Windows.Forms.Padding(2);
             this.button23.Name = "button23";
             this.button23.Size = new System.Drawing.Size(38, 41);
             this.button23.TabIndex = 206;
@@ -2370,7 +2370,7 @@ namespace amiral_battı_oyunu
             // 
             this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button24.Location = new System.Drawing.Point(112, 122);
-            this.button24.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button24.Margin = new System.Windows.Forms.Padding(2);
             this.button24.Name = "button24";
             this.button24.Size = new System.Drawing.Size(38, 41);
             this.button24.TabIndex = 207;
@@ -2380,7 +2380,7 @@ namespace amiral_battı_oyunu
             // 
             this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button25.Location = new System.Drawing.Point(150, 122);
-            this.button25.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button25.Margin = new System.Windows.Forms.Padding(2);
             this.button25.Name = "button25";
             this.button25.Size = new System.Drawing.Size(38, 41);
             this.button25.TabIndex = 208;
@@ -2390,7 +2390,7 @@ namespace amiral_battı_oyunu
             // 
             this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button26.Location = new System.Drawing.Point(188, 122);
-            this.button26.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button26.Margin = new System.Windows.Forms.Padding(2);
             this.button26.Name = "button26";
             this.button26.Size = new System.Drawing.Size(38, 41);
             this.button26.TabIndex = 209;
@@ -2400,7 +2400,7 @@ namespace amiral_battı_oyunu
             // 
             this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button27.Location = new System.Drawing.Point(225, 122);
-            this.button27.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button27.Margin = new System.Windows.Forms.Padding(2);
             this.button27.Name = "button27";
             this.button27.Size = new System.Drawing.Size(38, 41);
             this.button27.TabIndex = 210;
@@ -2410,7 +2410,7 @@ namespace amiral_battı_oyunu
             // 
             this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button28.Location = new System.Drawing.Point(262, 122);
-            this.button28.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button28.Margin = new System.Windows.Forms.Padding(2);
             this.button28.Name = "button28";
             this.button28.Size = new System.Drawing.Size(38, 41);
             this.button28.TabIndex = 211;
@@ -2420,7 +2420,7 @@ namespace amiral_battı_oyunu
             // 
             this.button29.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button29.Location = new System.Drawing.Point(300, 122);
-            this.button29.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button29.Margin = new System.Windows.Forms.Padding(2);
             this.button29.Name = "button29";
             this.button29.Size = new System.Drawing.Size(38, 41);
             this.button29.TabIndex = 212;
@@ -2430,7 +2430,7 @@ namespace amiral_battı_oyunu
             // 
             this.button30.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button30.Location = new System.Drawing.Point(338, 122);
-            this.button30.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button30.Margin = new System.Windows.Forms.Padding(2);
             this.button30.Name = "button30";
             this.button30.Size = new System.Drawing.Size(38, 41);
             this.button30.TabIndex = 213;
@@ -2440,7 +2440,7 @@ namespace amiral_battı_oyunu
             // 
             this.button31.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button31.Location = new System.Drawing.Point(375, 122);
-            this.button31.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button31.Margin = new System.Windows.Forms.Padding(2);
             this.button31.Name = "button31";
             this.button31.Size = new System.Drawing.Size(38, 41);
             this.button31.TabIndex = 214;
@@ -2450,7 +2450,7 @@ namespace amiral_battı_oyunu
             // 
             this.button32.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button32.Location = new System.Drawing.Point(38, 162);
-            this.button32.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button32.Margin = new System.Windows.Forms.Padding(2);
             this.button32.Name = "button32";
             this.button32.Size = new System.Drawing.Size(38, 41);
             this.button32.TabIndex = 215;
@@ -2460,7 +2460,7 @@ namespace amiral_battı_oyunu
             // 
             this.button33.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button33.Location = new System.Drawing.Point(75, 162);
-            this.button33.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button33.Margin = new System.Windows.Forms.Padding(2);
             this.button33.Name = "button33";
             this.button33.Size = new System.Drawing.Size(38, 41);
             this.button33.TabIndex = 216;
@@ -2470,7 +2470,7 @@ namespace amiral_battı_oyunu
             // 
             this.button34.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button34.Location = new System.Drawing.Point(112, 162);
-            this.button34.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button34.Margin = new System.Windows.Forms.Padding(2);
             this.button34.Name = "button34";
             this.button34.Size = new System.Drawing.Size(38, 41);
             this.button34.TabIndex = 217;
@@ -2480,7 +2480,7 @@ namespace amiral_battı_oyunu
             // 
             this.button35.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button35.Location = new System.Drawing.Point(150, 162);
-            this.button35.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button35.Margin = new System.Windows.Forms.Padding(2);
             this.button35.Name = "button35";
             this.button35.Size = new System.Drawing.Size(38, 41);
             this.button35.TabIndex = 218;
@@ -2501,7 +2501,7 @@ namespace amiral_battı_oyunu
             // 
             this.button36.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button36.Location = new System.Drawing.Point(188, 162);
-            this.button36.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button36.Margin = new System.Windows.Forms.Padding(2);
             this.button36.Name = "button36";
             this.button36.Size = new System.Drawing.Size(38, 41);
             this.button36.TabIndex = 219;
@@ -2522,7 +2522,7 @@ namespace amiral_battı_oyunu
             // 
             this.button37.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button37.Location = new System.Drawing.Point(225, 162);
-            this.button37.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button37.Margin = new System.Windows.Forms.Padding(2);
             this.button37.Name = "button37";
             this.button37.Size = new System.Drawing.Size(38, 41);
             this.button37.TabIndex = 220;
@@ -2543,7 +2543,7 @@ namespace amiral_battı_oyunu
             // 
             this.button38.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button38.Location = new System.Drawing.Point(262, 162);
-            this.button38.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button38.Margin = new System.Windows.Forms.Padding(2);
             this.button38.Name = "button38";
             this.button38.Size = new System.Drawing.Size(38, 41);
             this.button38.TabIndex = 221;
@@ -2564,7 +2564,7 @@ namespace amiral_battı_oyunu
             // 
             this.button39.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button39.Location = new System.Drawing.Point(300, 162);
-            this.button39.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button39.Margin = new System.Windows.Forms.Padding(2);
             this.button39.Name = "button39";
             this.button39.Size = new System.Drawing.Size(38, 41);
             this.button39.TabIndex = 222;
@@ -2596,7 +2596,7 @@ namespace amiral_battı_oyunu
             // 
             this.button40.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button40.Location = new System.Drawing.Point(338, 162);
-            this.button40.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button40.Margin = new System.Windows.Forms.Padding(2);
             this.button40.Name = "button40";
             this.button40.Size = new System.Drawing.Size(38, 41);
             this.button40.TabIndex = 223;
@@ -2617,7 +2617,7 @@ namespace amiral_battı_oyunu
             // 
             this.button41.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button41.Location = new System.Drawing.Point(375, 162);
-            this.button41.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button41.Margin = new System.Windows.Forms.Padding(2);
             this.button41.Name = "button41";
             this.button41.Size = new System.Drawing.Size(38, 41);
             this.button41.TabIndex = 224;
@@ -2638,7 +2638,7 @@ namespace amiral_battı_oyunu
             // 
             this.button42.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button42.Location = new System.Drawing.Point(38, 203);
-            this.button42.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button42.Margin = new System.Windows.Forms.Padding(2);
             this.button42.Name = "button42";
             this.button42.Size = new System.Drawing.Size(38, 41);
             this.button42.TabIndex = 225;
@@ -2659,7 +2659,7 @@ namespace amiral_battı_oyunu
             // 
             this.button43.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button43.Location = new System.Drawing.Point(75, 203);
-            this.button43.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button43.Margin = new System.Windows.Forms.Padding(2);
             this.button43.Name = "button43";
             this.button43.Size = new System.Drawing.Size(38, 41);
             this.button43.TabIndex = 226;
@@ -2680,7 +2680,7 @@ namespace amiral_battı_oyunu
             // 
             this.button44.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button44.Location = new System.Drawing.Point(112, 203);
-            this.button44.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button44.Margin = new System.Windows.Forms.Padding(2);
             this.button44.Name = "button44";
             this.button44.Size = new System.Drawing.Size(38, 41);
             this.button44.TabIndex = 227;
@@ -2690,7 +2690,7 @@ namespace amiral_battı_oyunu
             // 
             this.button45.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button45.Location = new System.Drawing.Point(150, 203);
-            this.button45.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button45.Margin = new System.Windows.Forms.Padding(2);
             this.button45.Name = "button45";
             this.button45.Size = new System.Drawing.Size(38, 41);
             this.button45.TabIndex = 228;
@@ -2700,7 +2700,7 @@ namespace amiral_battı_oyunu
             // 
             this.button46.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button46.Location = new System.Drawing.Point(188, 203);
-            this.button46.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button46.Margin = new System.Windows.Forms.Padding(2);
             this.button46.Name = "button46";
             this.button46.Size = new System.Drawing.Size(38, 41);
             this.button46.TabIndex = 229;
@@ -2710,7 +2710,7 @@ namespace amiral_battı_oyunu
             // 
             this.button47.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button47.Location = new System.Drawing.Point(225, 203);
-            this.button47.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button47.Margin = new System.Windows.Forms.Padding(2);
             this.button47.Name = "button47";
             this.button47.Size = new System.Drawing.Size(38, 41);
             this.button47.TabIndex = 230;
@@ -2720,7 +2720,7 @@ namespace amiral_battı_oyunu
             // 
             this.button48.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button48.Location = new System.Drawing.Point(262, 203);
-            this.button48.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button48.Margin = new System.Windows.Forms.Padding(2);
             this.button48.Name = "button48";
             this.button48.Size = new System.Drawing.Size(38, 41);
             this.button48.TabIndex = 231;
@@ -2730,7 +2730,7 @@ namespace amiral_battı_oyunu
             // 
             this.button49.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button49.Location = new System.Drawing.Point(300, 203);
-            this.button49.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button49.Margin = new System.Windows.Forms.Padding(2);
             this.button49.Name = "button49";
             this.button49.Size = new System.Drawing.Size(38, 41);
             this.button49.TabIndex = 232;
@@ -2740,7 +2740,7 @@ namespace amiral_battı_oyunu
             // 
             this.button50.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button50.Location = new System.Drawing.Point(338, 203);
-            this.button50.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button50.Margin = new System.Windows.Forms.Padding(2);
             this.button50.Name = "button50";
             this.button50.Size = new System.Drawing.Size(38, 41);
             this.button50.TabIndex = 233;
@@ -2750,7 +2750,7 @@ namespace amiral_battı_oyunu
             // 
             this.button51.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button51.Location = new System.Drawing.Point(375, 203);
-            this.button51.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button51.Margin = new System.Windows.Forms.Padding(2);
             this.button51.Name = "button51";
             this.button51.Size = new System.Drawing.Size(38, 41);
             this.button51.TabIndex = 234;
@@ -2760,7 +2760,7 @@ namespace amiral_battı_oyunu
             // 
             this.button52.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button52.Location = new System.Drawing.Point(38, 244);
-            this.button52.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button52.Margin = new System.Windows.Forms.Padding(2);
             this.button52.Name = "button52";
             this.button52.Size = new System.Drawing.Size(38, 41);
             this.button52.TabIndex = 235;
@@ -2770,7 +2770,7 @@ namespace amiral_battı_oyunu
             // 
             this.button53.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button53.Location = new System.Drawing.Point(75, 244);
-            this.button53.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button53.Margin = new System.Windows.Forms.Padding(2);
             this.button53.Name = "button53";
             this.button53.Size = new System.Drawing.Size(38, 41);
             this.button53.TabIndex = 236;
@@ -2780,7 +2780,7 @@ namespace amiral_battı_oyunu
             // 
             this.button54.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button54.Location = new System.Drawing.Point(112, 244);
-            this.button54.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button54.Margin = new System.Windows.Forms.Padding(2);
             this.button54.Name = "button54";
             this.button54.Size = new System.Drawing.Size(38, 41);
             this.button54.TabIndex = 237;
@@ -2790,7 +2790,7 @@ namespace amiral_battı_oyunu
             // 
             this.button55.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button55.Location = new System.Drawing.Point(150, 244);
-            this.button55.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button55.Margin = new System.Windows.Forms.Padding(2);
             this.button55.Name = "button55";
             this.button55.Size = new System.Drawing.Size(38, 41);
             this.button55.TabIndex = 238;
@@ -2800,7 +2800,7 @@ namespace amiral_battı_oyunu
             // 
             this.button56.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button56.Location = new System.Drawing.Point(188, 244);
-            this.button56.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button56.Margin = new System.Windows.Forms.Padding(2);
             this.button56.Name = "button56";
             this.button56.Size = new System.Drawing.Size(38, 41);
             this.button56.TabIndex = 239;
@@ -2810,7 +2810,7 @@ namespace amiral_battı_oyunu
             // 
             this.button57.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button57.Location = new System.Drawing.Point(225, 244);
-            this.button57.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button57.Margin = new System.Windows.Forms.Padding(2);
             this.button57.Name = "button57";
             this.button57.Size = new System.Drawing.Size(38, 41);
             this.button57.TabIndex = 240;
@@ -2820,7 +2820,7 @@ namespace amiral_battı_oyunu
             // 
             this.button58.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button58.Location = new System.Drawing.Point(262, 244);
-            this.button58.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button58.Margin = new System.Windows.Forms.Padding(2);
             this.button58.Name = "button58";
             this.button58.Size = new System.Drawing.Size(38, 41);
             this.button58.TabIndex = 241;
@@ -2830,7 +2830,7 @@ namespace amiral_battı_oyunu
             // 
             this.button59.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button59.Location = new System.Drawing.Point(300, 244);
-            this.button59.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button59.Margin = new System.Windows.Forms.Padding(2);
             this.button59.Name = "button59";
             this.button59.Size = new System.Drawing.Size(38, 41);
             this.button59.TabIndex = 242;
@@ -2840,7 +2840,7 @@ namespace amiral_battı_oyunu
             // 
             this.button60.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button60.Location = new System.Drawing.Point(338, 244);
-            this.button60.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button60.Margin = new System.Windows.Forms.Padding(2);
             this.button60.Name = "button60";
             this.button60.Size = new System.Drawing.Size(38, 41);
             this.button60.TabIndex = 243;
@@ -2850,7 +2850,7 @@ namespace amiral_battı_oyunu
             // 
             this.button61.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button61.Location = new System.Drawing.Point(375, 244);
-            this.button61.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button61.Margin = new System.Windows.Forms.Padding(2);
             this.button61.Name = "button61";
             this.button61.Size = new System.Drawing.Size(38, 41);
             this.button61.TabIndex = 244;
@@ -2860,7 +2860,7 @@ namespace amiral_battı_oyunu
             // 
             this.button62.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button62.Location = new System.Drawing.Point(38, 284);
-            this.button62.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button62.Margin = new System.Windows.Forms.Padding(2);
             this.button62.Name = "button62";
             this.button62.Size = new System.Drawing.Size(38, 41);
             this.button62.TabIndex = 245;
@@ -2870,7 +2870,7 @@ namespace amiral_battı_oyunu
             // 
             this.button63.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button63.Location = new System.Drawing.Point(75, 284);
-            this.button63.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button63.Margin = new System.Windows.Forms.Padding(2);
             this.button63.Name = "button63";
             this.button63.Size = new System.Drawing.Size(38, 41);
             this.button63.TabIndex = 246;
@@ -2880,7 +2880,7 @@ namespace amiral_battı_oyunu
             // 
             this.button64.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button64.Location = new System.Drawing.Point(112, 284);
-            this.button64.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button64.Margin = new System.Windows.Forms.Padding(2);
             this.button64.Name = "button64";
             this.button64.Size = new System.Drawing.Size(38, 41);
             this.button64.TabIndex = 247;
@@ -2890,7 +2890,7 @@ namespace amiral_battı_oyunu
             // 
             this.button65.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button65.Location = new System.Drawing.Point(150, 284);
-            this.button65.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button65.Margin = new System.Windows.Forms.Padding(2);
             this.button65.Name = "button65";
             this.button65.Size = new System.Drawing.Size(38, 41);
             this.button65.TabIndex = 248;
@@ -2900,7 +2900,7 @@ namespace amiral_battı_oyunu
             // 
             this.button66.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button66.Location = new System.Drawing.Point(188, 284);
-            this.button66.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button66.Margin = new System.Windows.Forms.Padding(2);
             this.button66.Name = "button66";
             this.button66.Size = new System.Drawing.Size(38, 41);
             this.button66.TabIndex = 249;
@@ -2910,7 +2910,7 @@ namespace amiral_battı_oyunu
             // 
             this.button67.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button67.Location = new System.Drawing.Point(225, 284);
-            this.button67.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button67.Margin = new System.Windows.Forms.Padding(2);
             this.button67.Name = "button67";
             this.button67.Size = new System.Drawing.Size(38, 41);
             this.button67.TabIndex = 250;
@@ -2920,7 +2920,7 @@ namespace amiral_battı_oyunu
             // 
             this.button68.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button68.Location = new System.Drawing.Point(262, 284);
-            this.button68.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button68.Margin = new System.Windows.Forms.Padding(2);
             this.button68.Name = "button68";
             this.button68.Size = new System.Drawing.Size(38, 41);
             this.button68.TabIndex = 251;
@@ -2930,7 +2930,7 @@ namespace amiral_battı_oyunu
             // 
             this.button69.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button69.Location = new System.Drawing.Point(300, 284);
-            this.button69.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button69.Margin = new System.Windows.Forms.Padding(2);
             this.button69.Name = "button69";
             this.button69.Size = new System.Drawing.Size(38, 41);
             this.button69.TabIndex = 252;
@@ -2940,7 +2940,7 @@ namespace amiral_battı_oyunu
             // 
             this.button70.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button70.Location = new System.Drawing.Point(338, 284);
-            this.button70.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button70.Margin = new System.Windows.Forms.Padding(2);
             this.button70.Name = "button70";
             this.button70.Size = new System.Drawing.Size(38, 41);
             this.button70.TabIndex = 253;
@@ -2950,7 +2950,7 @@ namespace amiral_battı_oyunu
             // 
             this.button71.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button71.Location = new System.Drawing.Point(375, 284);
-            this.button71.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button71.Margin = new System.Windows.Forms.Padding(2);
             this.button71.Name = "button71";
             this.button71.Size = new System.Drawing.Size(38, 41);
             this.button71.TabIndex = 254;
@@ -2960,7 +2960,7 @@ namespace amiral_battı_oyunu
             // 
             this.button72.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button72.Location = new System.Drawing.Point(38, 325);
-            this.button72.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button72.Margin = new System.Windows.Forms.Padding(2);
             this.button72.Name = "button72";
             this.button72.Size = new System.Drawing.Size(38, 41);
             this.button72.TabIndex = 255;
@@ -2970,7 +2970,7 @@ namespace amiral_battı_oyunu
             // 
             this.button73.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button73.Location = new System.Drawing.Point(75, 325);
-            this.button73.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button73.Margin = new System.Windows.Forms.Padding(2);
             this.button73.Name = "button73";
             this.button73.Size = new System.Drawing.Size(38, 41);
             this.button73.TabIndex = 256;
@@ -2980,7 +2980,7 @@ namespace amiral_battı_oyunu
             // 
             this.button74.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button74.Location = new System.Drawing.Point(112, 325);
-            this.button74.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button74.Margin = new System.Windows.Forms.Padding(2);
             this.button74.Name = "button74";
             this.button74.Size = new System.Drawing.Size(38, 41);
             this.button74.TabIndex = 257;
@@ -2990,7 +2990,7 @@ namespace amiral_battı_oyunu
             // 
             this.button75.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button75.Location = new System.Drawing.Point(150, 325);
-            this.button75.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button75.Margin = new System.Windows.Forms.Padding(2);
             this.button75.Name = "button75";
             this.button75.Size = new System.Drawing.Size(38, 41);
             this.button75.TabIndex = 258;
@@ -3000,7 +3000,7 @@ namespace amiral_battı_oyunu
             // 
             this.button76.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button76.Location = new System.Drawing.Point(188, 325);
-            this.button76.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button76.Margin = new System.Windows.Forms.Padding(2);
             this.button76.Name = "button76";
             this.button76.Size = new System.Drawing.Size(38, 41);
             this.button76.TabIndex = 259;
@@ -3010,7 +3010,7 @@ namespace amiral_battı_oyunu
             // 
             this.button77.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button77.Location = new System.Drawing.Point(225, 325);
-            this.button77.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button77.Margin = new System.Windows.Forms.Padding(2);
             this.button77.Name = "button77";
             this.button77.Size = new System.Drawing.Size(38, 41);
             this.button77.TabIndex = 260;
@@ -3020,7 +3020,7 @@ namespace amiral_battı_oyunu
             // 
             this.button78.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button78.Location = new System.Drawing.Point(262, 325);
-            this.button78.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button78.Margin = new System.Windows.Forms.Padding(2);
             this.button78.Name = "button78";
             this.button78.Size = new System.Drawing.Size(38, 41);
             this.button78.TabIndex = 261;
@@ -3030,7 +3030,7 @@ namespace amiral_battı_oyunu
             // 
             this.button79.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button79.Location = new System.Drawing.Point(300, 325);
-            this.button79.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button79.Margin = new System.Windows.Forms.Padding(2);
             this.button79.Name = "button79";
             this.button79.Size = new System.Drawing.Size(38, 41);
             this.button79.TabIndex = 262;
@@ -3040,7 +3040,7 @@ namespace amiral_battı_oyunu
             // 
             this.button80.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button80.Location = new System.Drawing.Point(338, 325);
-            this.button80.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button80.Margin = new System.Windows.Forms.Padding(2);
             this.button80.Name = "button80";
             this.button80.Size = new System.Drawing.Size(38, 41);
             this.button80.TabIndex = 263;
@@ -3050,7 +3050,7 @@ namespace amiral_battı_oyunu
             // 
             this.button81.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button81.Location = new System.Drawing.Point(375, 325);
-            this.button81.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button81.Margin = new System.Windows.Forms.Padding(2);
             this.button81.Name = "button81";
             this.button81.Size = new System.Drawing.Size(38, 41);
             this.button81.TabIndex = 264;
@@ -3060,7 +3060,7 @@ namespace amiral_battı_oyunu
             // 
             this.button82.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button82.Location = new System.Drawing.Point(38, 366);
-            this.button82.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button82.Margin = new System.Windows.Forms.Padding(2);
             this.button82.Name = "button82";
             this.button82.Size = new System.Drawing.Size(38, 41);
             this.button82.TabIndex = 265;
@@ -3070,7 +3070,7 @@ namespace amiral_battı_oyunu
             // 
             this.button83.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button83.Location = new System.Drawing.Point(75, 366);
-            this.button83.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button83.Margin = new System.Windows.Forms.Padding(2);
             this.button83.Name = "button83";
             this.button83.Size = new System.Drawing.Size(38, 41);
             this.button83.TabIndex = 266;
@@ -3080,7 +3080,7 @@ namespace amiral_battı_oyunu
             // 
             this.button84.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button84.Location = new System.Drawing.Point(112, 366);
-            this.button84.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button84.Margin = new System.Windows.Forms.Padding(2);
             this.button84.Name = "button84";
             this.button84.Size = new System.Drawing.Size(38, 41);
             this.button84.TabIndex = 267;
@@ -3090,7 +3090,7 @@ namespace amiral_battı_oyunu
             // 
             this.button85.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button85.Location = new System.Drawing.Point(150, 366);
-            this.button85.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button85.Margin = new System.Windows.Forms.Padding(2);
             this.button85.Name = "button85";
             this.button85.Size = new System.Drawing.Size(38, 41);
             this.button85.TabIndex = 268;
@@ -3100,7 +3100,7 @@ namespace amiral_battı_oyunu
             // 
             this.button86.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button86.Location = new System.Drawing.Point(188, 366);
-            this.button86.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button86.Margin = new System.Windows.Forms.Padding(2);
             this.button86.Name = "button86";
             this.button86.Size = new System.Drawing.Size(38, 41);
             this.button86.TabIndex = 269;
@@ -3110,7 +3110,7 @@ namespace amiral_battı_oyunu
             // 
             this.button87.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button87.Location = new System.Drawing.Point(225, 366);
-            this.button87.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button87.Margin = new System.Windows.Forms.Padding(2);
             this.button87.Name = "button87";
             this.button87.Size = new System.Drawing.Size(38, 41);
             this.button87.TabIndex = 270;
@@ -3120,7 +3120,7 @@ namespace amiral_battı_oyunu
             // 
             this.button88.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button88.Location = new System.Drawing.Point(262, 366);
-            this.button88.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button88.Margin = new System.Windows.Forms.Padding(2);
             this.button88.Name = "button88";
             this.button88.Size = new System.Drawing.Size(38, 41);
             this.button88.TabIndex = 271;
@@ -3130,7 +3130,7 @@ namespace amiral_battı_oyunu
             // 
             this.button89.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button89.Location = new System.Drawing.Point(300, 366);
-            this.button89.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button89.Margin = new System.Windows.Forms.Padding(2);
             this.button89.Name = "button89";
             this.button89.Size = new System.Drawing.Size(38, 41);
             this.button89.TabIndex = 272;
@@ -3140,7 +3140,7 @@ namespace amiral_battı_oyunu
             // 
             this.button90.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button90.Location = new System.Drawing.Point(338, 366);
-            this.button90.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button90.Margin = new System.Windows.Forms.Padding(2);
             this.button90.Name = "button90";
             this.button90.Size = new System.Drawing.Size(38, 41);
             this.button90.TabIndex = 273;
@@ -3150,7 +3150,7 @@ namespace amiral_battı_oyunu
             // 
             this.button91.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button91.Location = new System.Drawing.Point(375, 366);
-            this.button91.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button91.Margin = new System.Windows.Forms.Padding(2);
             this.button91.Name = "button91";
             this.button91.Size = new System.Drawing.Size(38, 41);
             this.button91.TabIndex = 274;
@@ -3160,7 +3160,7 @@ namespace amiral_battı_oyunu
             // 
             this.button92.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button92.Location = new System.Drawing.Point(38, 406);
-            this.button92.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button92.Margin = new System.Windows.Forms.Padding(2);
             this.button92.Name = "button92";
             this.button92.Size = new System.Drawing.Size(38, 41);
             this.button92.TabIndex = 275;
@@ -3170,7 +3170,7 @@ namespace amiral_battı_oyunu
             // 
             this.button93.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button93.Location = new System.Drawing.Point(75, 406);
-            this.button93.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button93.Margin = new System.Windows.Forms.Padding(2);
             this.button93.Name = "button93";
             this.button93.Size = new System.Drawing.Size(38, 41);
             this.button93.TabIndex = 276;
@@ -3180,7 +3180,7 @@ namespace amiral_battı_oyunu
             // 
             this.button94.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button94.Location = new System.Drawing.Point(112, 406);
-            this.button94.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button94.Margin = new System.Windows.Forms.Padding(2);
             this.button94.Name = "button94";
             this.button94.Size = new System.Drawing.Size(38, 41);
             this.button94.TabIndex = 277;
@@ -3190,7 +3190,7 @@ namespace amiral_battı_oyunu
             // 
             this.button95.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button95.Location = new System.Drawing.Point(150, 406);
-            this.button95.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button95.Margin = new System.Windows.Forms.Padding(2);
             this.button95.Name = "button95";
             this.button95.Size = new System.Drawing.Size(38, 41);
             this.button95.TabIndex = 278;
@@ -3200,7 +3200,7 @@ namespace amiral_battı_oyunu
             // 
             this.button96.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button96.Location = new System.Drawing.Point(188, 406);
-            this.button96.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button96.Margin = new System.Windows.Forms.Padding(2);
             this.button96.Name = "button96";
             this.button96.Size = new System.Drawing.Size(38, 41);
             this.button96.TabIndex = 279;
@@ -3210,7 +3210,7 @@ namespace amiral_battı_oyunu
             // 
             this.button97.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button97.Location = new System.Drawing.Point(225, 406);
-            this.button97.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button97.Margin = new System.Windows.Forms.Padding(2);
             this.button97.Name = "button97";
             this.button97.Size = new System.Drawing.Size(38, 41);
             this.button97.TabIndex = 280;
@@ -3220,7 +3220,7 @@ namespace amiral_battı_oyunu
             // 
             this.button98.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button98.Location = new System.Drawing.Point(262, 406);
-            this.button98.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button98.Margin = new System.Windows.Forms.Padding(2);
             this.button98.Name = "button98";
             this.button98.Size = new System.Drawing.Size(38, 41);
             this.button98.TabIndex = 281;
@@ -3230,7 +3230,7 @@ namespace amiral_battı_oyunu
             // 
             this.button99.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button99.Location = new System.Drawing.Point(300, 406);
-            this.button99.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button99.Margin = new System.Windows.Forms.Padding(2);
             this.button99.Name = "button99";
             this.button99.Size = new System.Drawing.Size(38, 41);
             this.button99.TabIndex = 282;
@@ -3240,7 +3240,7 @@ namespace amiral_battı_oyunu
             // 
             this.button100.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button100.Location = new System.Drawing.Point(338, 406);
-            this.button100.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button100.Margin = new System.Windows.Forms.Padding(2);
             this.button100.Name = "button100";
             this.button100.Size = new System.Drawing.Size(38, 41);
             this.button100.TabIndex = 283;
@@ -3250,7 +3250,7 @@ namespace amiral_battı_oyunu
             // 
             this.button101.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button101.Location = new System.Drawing.Point(375, 406);
-            this.button101.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button101.Margin = new System.Windows.Forms.Padding(2);
             this.button101.Name = "button101";
             this.button101.Size = new System.Drawing.Size(38, 41);
             this.button101.TabIndex = 284;
@@ -3307,7 +3307,7 @@ namespace amiral_battı_oyunu
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label18);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "oyun";
             this.Text = "AMİRAL BATTI";
             this.Load += new System.EventHandler(this.oyun_Load);
