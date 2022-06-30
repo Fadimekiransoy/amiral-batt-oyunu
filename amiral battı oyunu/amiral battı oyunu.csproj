@@ -73,11 +73,11 @@
     <Compile Include="OYUNEKRANI.Designer.cs">
       <DependentUpon>OYUNEKRANI.cs</DependentUpon>
     </Compile>
-    <Compile Include="oyunekranı1cs.cs">
+    <Compile Include="oyun.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="oyunekranı1cs.Designer.cs">
-      <DependentUpon>oyunekranı1cs.cs</DependentUpon>
+    <Compile Include="oyun.Designer.cs">
+      <DependentUpon>oyun.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -87,8 +87,8 @@
     <EmbeddedResource Include="OYUNEKRANI.resx">
       <DependentUpon>OYUNEKRANI.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="oyunekranı1cs.resx">
-      <DependentUpon>oyunekranı1cs.cs</DependentUpon>
+    <EmbeddedResource Include="oyun.resx">
+      <DependentUpon>oyun.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

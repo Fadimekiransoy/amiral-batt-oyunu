@@ -283,6 +283,7 @@ namespace amiral_battı_oyunu
             this.label39 = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
             this.amiral_battiDataSet1 = new amiral_battı_oyunu.amiral_battiDataSet();
+            this.button203 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -291,6 +292,7 @@ namespace amiral_battı_oyunu
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.button203);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button4);
@@ -1112,7 +1114,7 @@ namespace amiral_battı_oyunu
             // 
             this.button71.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button71.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button71.Location = new System.Drawing.Point(43, 186);
+            this.button71.Location = new System.Drawing.Point(43, 155);
             this.button71.Name = "button71";
             this.button71.Size = new System.Drawing.Size(47, 40);
             this.button71.TabIndex = 159;
@@ -1417,7 +1419,6 @@ namespace amiral_battı_oyunu
             this.button101.Size = new System.Drawing.Size(47, 40);
             this.button101.TabIndex = 129;
             this.button101.UseVisualStyleBackColor = true;
-            this.button101.Click += new System.EventHandler(this.button101_Click);
             // 
             // groupBox1
             // 
@@ -2957,6 +2958,16 @@ namespace amiral_battı_oyunu
             this.amiral_battiDataSet1.DataSetName = "amiral_battiDataSet";
             this.amiral_battiDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
+            // button203
+            // 
+            this.button203.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button203.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button203.Location = new System.Drawing.Point(325, 155);
+            this.button203.Name = "button203";
+            this.button203.Size = new System.Drawing.Size(47, 40);
+            this.button203.TabIndex = 228;
+            this.button203.UseVisualStyleBackColor = true;
+            // 
             // OYUNEKRANI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -3234,5 +3245,6 @@ namespace amiral_battı_oyunu
         private System.Windows.Forms.Button button99;
         private System.Windows.Forms.Button button100;
         private System.Windows.Forms.Button button101;
+        private System.Windows.Forms.Button button203;
     }
 }
