@@ -113,7 +113,7 @@ namespace amiral_battı_oyunu
 
              for (i = 0; i < 10; i++)
              {
-                 if (Gemi.Location.X >= butonlarFormKonumuX[0, i] && Gemi.Location.X < (butonlarFormKonumuX[0, i] + 45))
+                 if (Gemi.Location.X >= butonlarFormKonumuX[0, i] && Gemi.Location.X < (butonlarFormKonumuX[0, i] + 37))
                  {
                      mayınyenikonum = butonlarFormKonumuX[0, i];
                      break;
@@ -122,7 +122,7 @@ namespace amiral_battı_oyunu
 
              for (j = 0; j < 10; j++)
              {
-                 if (Gemi.Location.Y >= butonlarFormKonumuY[j, 0] && Gemi.Location.Y < (butonlarFormKonumuY[j, 0] + 45))
+                 if (Gemi.Location.Y >= butonlarFormKonumuY[j, 0] && Gemi.Location.Y < (butonlarFormKonumuY[j, 0] + 40))
                  {
                      mayın.Location = new Point(mayınyenikonum, butonlarFormKonumuY[j, 0] );
                      GemiSayiKonumu = j ;
@@ -173,7 +173,7 @@ namespace amiral_battı_oyunu
              }
              else
              {
-                 label47.Text = aktifgemi + " " + GemiHarfKonumu + GemiSayiKonumu + " Bölgesine Yerleştirildi.";
+                 label47.Text = aktifgemi + " " + GemiHarfKonumu + (GemiSayiKonumu+1) + " Bölgesine Yerleştirildi.";
              }
 
          }
@@ -188,12 +188,12 @@ namespace amiral_battı_oyunu
 
         }
 
-        private void mayın_Click(object sender, EventArgs e)
+        private void panel1_Paint_1(object sender, PaintEventArgs e)
         {
 
         }
 
-        private void panel1_Paint_1(object sender, PaintEventArgs e)
+        private void mayın_Click(object sender, EventArgs e)
         {
 
         }

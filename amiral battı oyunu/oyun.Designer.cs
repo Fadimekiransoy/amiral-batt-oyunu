@@ -3284,6 +3284,7 @@ namespace amiral_battı_oyunu
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label18);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "oyun";
             this.Text = "AMİRAL BATTI";
