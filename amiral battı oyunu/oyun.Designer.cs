@@ -294,6 +294,7 @@ namespace amiral_battı_oyunu
             this.button99 = new System.Windows.Forms.Button();
             this.button100 = new System.Windows.Forms.Button();
             this.button101 = new System.Windows.Forms.Button();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -1660,9 +1661,9 @@ namespace amiral_battı_oyunu
             this.mayın2.Size = new System.Drawing.Size(44, 44);
             this.mayın2.TabIndex = 297;
             this.mayın2.UseVisualStyleBackColor = true;
-            this.mayın2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mayın2_MouseDown);
-            this.mayın2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.mayın2_MouseMove);
-            this.mayın2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.mayın2_MouseUp);
+            this.mayın2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mayın_MouseDown);
+            this.mayın2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.mayın_MouseMove);
+            this.mayın2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.mayın_MouseUp);
             // 
             // mayın3
             // 
@@ -1674,6 +1675,9 @@ namespace amiral_battı_oyunu
             this.mayın3.Size = new System.Drawing.Size(44, 44);
             this.mayın3.TabIndex = 298;
             this.mayın3.UseVisualStyleBackColor = true;
+            this.mayın3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mayın_MouseDown);
+            this.mayın3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.mayın_MouseMove);
+            this.mayın3.MouseUp += new System.Windows.Forms.MouseEventHandler(this.mayın_MouseUp);
             // 
             // mayingemisi1
             // 
@@ -1879,7 +1883,6 @@ namespace amiral_battı_oyunu
             this.button1.TabIndex = 419;
             this.button1.Text = "OYUNU BAŞLAT";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label47
             // 
@@ -3254,12 +3257,22 @@ namespace amiral_battı_oyunu
             this.button101.TabIndex = 284;
             this.button101.UseVisualStyleBackColor = true;
             // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(769, 482);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(120, 95);
+            this.listBox1.TabIndex = 423;
+            // 
             // oyun
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;
             this.ClientSize = new System.Drawing.Size(1155, 634);
+            this.Controls.Add(this.mayın3);
+            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.mayın2);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.label4);
@@ -3284,7 +3297,6 @@ namespace amiral_battı_oyunu
             this.Controls.Add(this.mayingemisi3);
             this.Controls.Add(this.mayingemisi2);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.mayın3);
             this.Controls.Add(this.label41);
             this.Controls.Add(this.kruvazör1);
             this.Controls.Add(this.label7);
@@ -3584,5 +3596,6 @@ namespace amiral_battı_oyunu
         private System.Windows.Forms.Button button99;
         private System.Windows.Forms.Button button100;
         private System.Windows.Forms.Button button101;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }

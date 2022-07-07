@@ -20,31 +20,89 @@ namespace amiral_battı_oyunu
         }
 
         int i, j;
-        bool suruklenmedurumu = false;    
-        Point ilkkonumAl; 
+        bool suruklenmedurumu = false;
+        Point ilkkonumAl;
         private string aktifgemi;
         String GemiHarfKonumu = "";
         int GemiSayiKonumu = 0;
         int mayınyenikonum = 0;
-        ArrayList konum = new ArrayList(); //uzunluk kontrol edıcez
+        ArrayList konum = new ArrayList(); 
        
-
-
-
         private void mayın_MouseDown(object sender, MouseEventArgs e)
         {
+            Button mayın = sender as Button;
             if (e.Button == MouseButtons.Left)
             {
                 suruklenmedurumu = true;
                 mayın.Cursor = Cursors.SizeAll; 
                 ilkkonumAl = e.Location; 
                 aktifgemi = "mayın";// isimde hata cıkabilir
+
+
+                for (i = 0; i < 10; i++)
+                {
+                    if (mayın.Location.X >= butonlarFormKonumuX[0, i] && mayın.Location.X < (butonlarFormKonumuX[0, i] + 45))
+                    {
+                        mayınyenikonum = butonlarFormKonumuX[0, i];
+                        break;
+                    }
+                }
+
+                for (j = 0; j < 10; j++)
+                {
+                    if (mayın.Location.Y >= butonlarFormKonumuY[j, 0] && mayın.Location.Y < (butonlarFormKonumuY[j, 0] + 45))
+                    {
+                        mayın.Location = new Point(mayınyenikonum + 3, butonlarFormKonumuY[j, 0] + 3);
+                        GemiSayiKonumu = j;
+                        break;
+                    }
+                }
+
+                switch (i)
+                {
+                    case 0:
+                        GemiHarfKonumu = "A";
+                        break;
+                    case 1:
+                        GemiHarfKonumu = "B";
+                        break;
+                    case 2:
+                        GemiHarfKonumu = "C";
+                        break;
+                    case 3:
+                        GemiHarfKonumu = "D";
+                        break;
+                    case 4:
+                        GemiHarfKonumu = "E";
+                        break;
+                    case 5:
+                        GemiHarfKonumu = "F";
+                        break;
+                    case 6:
+                        GemiHarfKonumu = "G";
+                        break;
+                    case 7:
+                        GemiHarfKonumu = "H";
+                        break;
+                    case 8:
+                        GemiHarfKonumu = "I";
+                        break;
+                    case 9:
+                        GemiHarfKonumu = "J";
+                        break;
+                }
+                if (konum.IndexOf(GemiHarfKonumu + (GemiSayiKonumu + 1)) != -1)
+                {
+                   konum.Remove(GemiHarfKonumu + (GemiSayiKonumu + 1));
+                }
+               
             }
 
         }
 
         private void mayın_MouseMove(object sender, MouseEventArgs e)
         {
+            Button mayın = sender as Button;
             if (suruklenmedurumu) 
             {
                 mayın.Left = e.X + mayın.Left - (ilkkonumAl.X);
@@ -57,6 +115,7 @@ namespace amiral_battı_oyunu
 
         private void mayın_MouseUp(object sender, MouseEventArgs e)
         {
+            Button mayın = sender as Button;
             suruklenmedurumu = false; 
             mayın.Cursor = Cursors.Default;
             butoneslestirme(mayın);
@@ -90,128 +149,92 @@ namespace amiral_battı_oyunu
 
         public void butoneslestirme(Button Gemi)
         {
-          
-           for (i = 0; i < 10; i++)
-           {
-              if(Gemi.Location.X >= butonlarFormKonumuX[0, i] && Gemi.Location.X < (butonlarFormKonumuX[0, i] + 45))
-              {
-                 mayınyenikonum = butonlarFormKonumuX[0, i];
-                 break;
-              }
-           }
 
-           for (j = 0; j < 10; j++)
-           {
-              if (Gemi.Location.Y >= butonlarFormKonumuY[j, 0] && Gemi.Location.Y < (butonlarFormKonumuY[j, 0] + 45))
-              {
-                 Gemi.Location = new Point(mayınyenikonum + 3, butonlarFormKonumuY[j, 0] + 3);
-                 GemiSayiKonumu = j;
-                 break;
-              }
-           }
+            for (i = 0; i < 10; i++)
+            {
+                if (Gemi.Location.X >= butonlarFormKonumuX[0, i] && Gemi.Location.X < (butonlarFormKonumuX[0, i] + 45))
+                {
+                    mayınyenikonum = butonlarFormKonumuX[0, i];
+                    break;
+                }
+            }
 
-           switch(i)
-           {
-             case 0:
-                 GemiHarfKonumu = "A";
-                 break;
-             case 1:
-                 GemiHarfKonumu = "B";
-                 break;
-             case 2:
-                 GemiHarfKonumu = "C";
-                 break;             
-             case 3:
-                 GemiHarfKonumu = "D";
-                 break;
-             case 4:
-                 GemiHarfKonumu = "E";
-                 break;
-             case 5:
-                 GemiHarfKonumu = "F";
-                 break;
-             case 6:
-                 GemiHarfKonumu = "G";
-                 break;
-             case 7:
-                 GemiHarfKonumu = "H";
-                 break;
-             case 8:
-                 GemiHarfKonumu = "I";
-                 break;
-             case 9:
-                 GemiHarfKonumu = "J";
-                 break;
-           }
+            for (j = 0; j < 10; j++)
+            {
+                if (Gemi.Location.Y >= butonlarFormKonumuY[j, 0] && Gemi.Location.Y < (butonlarFormKonumuY[j, 0] + 45))
+                {
+                    Gemi.Location = new Point(mayınyenikonum + 3, butonlarFormKonumuY[j, 0] + 3);
+                    GemiSayiKonumu = j;
+                    break;
+                }
+            }
+
+            switch (i)
+            {
+                case 0:
+                    GemiHarfKonumu = "A";
+                    break;
+                case 1:
+                    GemiHarfKonumu = "B";
+                    break;
+                case 2:
+                    GemiHarfKonumu = "C";
+                    break;
+                case 3:
+                    GemiHarfKonumu = "D";
+                    break;
+                case 4:
+                    GemiHarfKonumu = "E";
+                    break;
+                case 5:
+                    GemiHarfKonumu = "F";
+                    break;
+                case 6:
+                    GemiHarfKonumu = "G";
+                    break;
+                case 7:
+                    GemiHarfKonumu = "H";
+                    break;
+                case 8:
+                    GemiHarfKonumu = "I";
+                    break;
+                case 9:
+                    GemiHarfKonumu = "J";
+                    break;
+            }
             if (konumara(GemiHarfKonumu + (GemiSayiKonumu + 1)))
             {
-                mayın2.Location = new Point(702, 279);// BU DEĞİŞECEK 
-                label47.Text = "Bu alan doludur";
+                mayın2.Location = new Point(702,279);
                 
+                label47.Text = "Bu Alan Doludur !!";
             }
-           else if (i == 10 || j == 10)
-           {
-              mayın.Location = new Point(650,280) ;// BU DEĞİŞECEK 
-              label47.Text = "";
-                
-            }
-           else
-           {
-              label47.Text = aktifgemi + " " + GemiHarfKonumu + (GemiSayiKonumu +1) +" Bölgesine Yerleştirildi.";
-           }
-        }
-
-        //1 - bu şekilde konumboş = true yazacağına, Fonksiyon (butonbosmu) bool döndersin. Eğer true ise boş, false ise dolu diyerek.
-        /* static void Main(string[] args)
-        {
-            int indexNo;
-            string arananDeger;
-            ArrayList liste = new ArrayList();
-            liste.Add("Emine");
-            liste.Add("Ayşe");
-            liste.Add("Fatma");//www.yazilimkodlama.com
-            liste.Add("Hasan");
-            liste.Add("Cemal");
-            liste.Add("Kemal");
- 
-            Console.Write("Aranacak İsmi Girin : ");
-            arananDeger = Console.ReadLine();
- 
-            indexNo = liste.IndexOf(arananDeger);
- 
-            if(indexNo==-1)
+            else if (i == 10 || j == 10)
             {
-                Console.WriteLine("Bu isim listede mevcut değil.");
+                mayın.Location = new Point(650, 280);
+               
+                label47.Text = "";
             }
             else
             {
-                Console.WriteLine("Aranan isim bulundu. İndex Değeri : {0}",indexNo);
+                label47.Text = aktifgemi + " " + GemiHarfKonumu + (GemiSayiKonumu + 1) + " Bölgesine Yerleştirildi.";
+                string a = aktifgemi + " " + GemiHarfKonumu + (GemiSayiKonumu + 1);
+                listBox1.Items.Add(a);
             }
-            Console.ReadKey();
- 
-        }*/
-        bool buttonkonum = true;//gecici yazdım 
-        
-        
+
+        }
 
         private Boolean konumara (string aranacak)
         {
-            int indexNo;
+               int indexNo;
 
-            indexNo = konum.IndexOf(aranacak);
+               indexNo = konum.IndexOf(aranacak);
+               if (indexNo == -1)
+               {
+                   konum.Add(aranacak);
 
-
-            if (indexNo == -1)
-            {
-                konum.Add(aranacak);
-                return false;
-                //MessageBox.Show("konum bos.");
-                //butoneslestirme(mayın2);
-
-            }
-            return true;
-            
-
+                   return false;
+               }
+               return true;
         }
        
         private void oyun_Load(object sender, EventArgs e)
@@ -219,41 +242,7 @@ namespace amiral_battı_oyunu
            butonKonumBelirleme();
 
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void mayın2_MouseDown(object sender, MouseEventArgs e)
-        {
-          if(e.Button == MouseButtons.Left)
-          {
-             suruklenmedurumu = true; 
-             mayın2.Cursor = Cursors.SizeAll; 
-             ilkkonumAl = e.Location; 
-             aktifgemi = "mayın2";
-          }
-        }
-          
-        private void mayın2_MouseMove(object sender, MouseEventArgs e)
-        {
-           if (suruklenmedurumu) 
-           {
-              mayın2.Left = e.X + mayın2.Left - (ilkkonumAl.X);
-              mayın2.Top = e.Y + mayın2.Top - (ilkkonumAl.Y);
-
-              label47.Text = mayın2.Top + "," + mayın2.Left;
-              label48.Text = A1.Top + "," + A1.Left; // buraya tekrar bak
-           }
-        }
-        
-        private void mayın2_MouseUp(object sender, MouseEventArgs e)
-        {
-           suruklenmedurumu = false; 
-           mayın2.Cursor = Cursors.Default;
-           butoneslestirme(mayın2);
-        }
+  
     }
 }
 
