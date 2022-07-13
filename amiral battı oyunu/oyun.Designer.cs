@@ -1661,9 +1661,9 @@ namespace amiral_battı_oyunu
             this.mayın2.Size = new System.Drawing.Size(44, 44);
             this.mayın2.TabIndex = 297;
             this.mayın2.UseVisualStyleBackColor = true;
-            this.mayın2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mayın_MouseDown);
-            this.mayın2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.mayın_MouseMove);
-            this.mayın2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.mayın_MouseUp);
+            this.mayın2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mayın2_MouseDown);
+            this.mayın2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.mayın2_MouseMove);
+            this.mayın2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.mayın2_MouseUp);
             // 
             // mayın3
             // 
@@ -3362,7 +3362,7 @@ namespace amiral_battı_oyunu
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "oyun";
             this.Text = "AMİRAL BATTI";
-            this.Load += new System.EventHandler(this.oyun_Load);
+            this.Load += new System.EventHandler(this.oyun_Load_1);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
