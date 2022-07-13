@@ -21,7 +21,6 @@ namespace amiral_battı_oyunu
 
         int i, j;
         bool suruklenmedurumu = false;
-        String[] harf = { "A", "B" ,"C","D","E","F","G","H","I","J"};
         Point ilkkonumAl;
         private string aktifgemi;
         String GemiHarfKonumu = "";
@@ -30,6 +29,7 @@ namespace amiral_battı_oyunu
         int gemiyenikonum = 0;
         int gemiuzunluk = 0;
         ArrayList konum = new ArrayList();
+        String[] harf = { "A", "B", "C", "D", "E", "F", "G", "H", "I", "J" };
 
         private void mayın_MouseDown(object sender, MouseEventArgs e)
         {
@@ -112,7 +112,7 @@ namespace amiral_battı_oyunu
                 mayın.Left = e.X + mayın.Left - (ilkkonumAl.X);
                 mayın.Top = e.Y + mayın.Top - (ilkkonumAl.Y);
 
-                label47.Text = mayın.Top + "," + mayın.Left;
+                label47.Text = mayın.Left + "," + mayın.Top;
                 label48.Text = A1.Top + "," + A1.Left;
             }
         }
@@ -175,31 +175,54 @@ namespace amiral_battı_oyunu
             }
 
             int baslangic = i;
-
-            for (int i = baslangic; i < baslangic + gemiuzunluk; i++)
+            int yerlestirilmis = 0;
+            int bb = 0;
+            try
             {
-                if (konumara(harf[i] + (GemiSayiKonumu + 1)))
+                for (int i = baslangic; i < baslangic + gemiuzunluk; i++)
                 {
-                    mayın2.Location = new Point(750, 287);
+                    
+                    if (konumara(harf[i] + (GemiSayiKonumu + 1)))
+                    {
+                       // mayın2.Location = new Point(750, 287);
+                       // fırkateyn1.Location = new Point(547, 76);
 
-                    label47.Text = "Bu Alan Doludur !!";
+                        label47.Text = "Bu Alan Doludur !!";
+                       
+                    }
+                    else if (i == 10 || j == 10)
+                    {
+                        mayın.Location = new Point(698, 288);
+                       // mayın2.Location = new Point(750, 287);//hata
+                      //  mayın3.Location = new Point(799, 287);//hata
+                        
+                    //   fırkateyn2.Location = new Point(547, 123);
+
+
+                        label47.Text = "";
+                    }
+                    else
+                    {
+                        label47.Text = aktifgemi + " " + harf[i] + (GemiSayiKonumu + 1) + " Bölgesine Yerleştirildi.";
+                        string a = aktifgemi + " " + harf[i] + (GemiSayiKonumu + 1);
+                        listBox1.Items.Add(a);
+                        bb++;
+                        konum.Add(harf[i] + (GemiSayiKonumu + 1));
+                        Console.WriteLine(harf[i] + (GemiSayiKonumu + 1));
+                        yerlestirilmis++;
+                    }
                 }
-                else if (i == 10 || j == 10)
+            }
+            catch (Exception e)
+            {
+               /* for(int i=0; i < bb; i++)
                 {
-                    mayın.Location = new Point(698, 288);
-                    fırkateyn1.Location = new Point(572, 82);
-
-
-                    label47.Text = "";
+                    listBox1.Items.RemoveAt(listBox1.Items.Count - 1);//HATA VAR
+                    konum.RemoveAt(konum.Count - 1);
                 }
-                else
-                {
-                    label47.Text = aktifgemi + " " + harf[i] + (GemiSayiKonumu + 1) + " Bölgesine Yerleştirildi.";
-                    string a = aktifgemi + " " + harf[i] + (GemiSayiKonumu + 1);
-                    listBox1.Items.Add(a);
-                    konum.Add(harf[i] + (GemiSayiKonumu + 1));
-                    Console.WriteLine(harf[i] + (GemiSayiKonumu + 1));
-                }
+              //  fırkateyn1.Location = new Point(547, 76);
+              //  fırkateyn2.Location = new Point(547, 123);
+                MessageBox.Show("Lütfen savaş kartının içine yerleştirin.");*/
             }
 
         }
@@ -211,13 +234,12 @@ namespace amiral_battı_oyunu
             indexNo = konum.IndexOf(aranacak);
             if (indexNo == -1)
             {
-               
                 return false;
             }
             return true;
         }
 
-        private void fırkateyn1_MouseDown(object sender, MouseEventArgs e)
+    /*   private void fırkateyn1_MouseDown(object sender, MouseEventArgs e)
         {
             Button fırkateyn1 = sender as Button;
             
@@ -228,7 +250,7 @@ namespace amiral_battı_oyunu
                 ilkkonumAl = e.Location;
                 aktifgemi = "fırkateyn";
                 gemiuzunluk = 4;
-                bool a = false;
+                bool a= false;
 
                 for (i = 0; i < 10; i++)
                 {
@@ -288,7 +310,7 @@ namespace amiral_battı_oyunu
             suruklenmedurumu = false;
             fırkateyn1.Cursor = Cursors.Default;
             butoneslestirme(fırkateyn1);
-        }
+        }*/
 
         private void oyun_Load(object sender, EventArgs e)
         {

@@ -1655,7 +1655,7 @@ namespace amiral_battı_oyunu
             // 
             this.mayın2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.mayın2.Image = ((System.Drawing.Image)(resources.GetObject("mayın2.Image")));
-            this.mayın2.Location = new System.Drawing.Point(750, 287);
+            this.mayın2.Location = new System.Drawing.Point(746, 288);
             this.mayın2.Margin = new System.Windows.Forms.Padding(2);
             this.mayın2.Name = "mayın2";
             this.mayın2.Size = new System.Drawing.Size(44, 44);
@@ -1683,10 +1683,10 @@ namespace amiral_battı_oyunu
             // 
             this.mayingemisi1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.mayingemisi1.Image = ((System.Drawing.Image)(resources.GetObject("mayingemisi1.Image")));
-            this.mayingemisi1.Location = new System.Drawing.Point(739, 82);
+            this.mayingemisi1.Location = new System.Drawing.Point(739, 76);
             this.mayingemisi1.Margin = new System.Windows.Forms.Padding(2);
             this.mayingemisi1.Name = "mayingemisi1";
-            this.mayingemisi1.Size = new System.Drawing.Size(75, 41);
+            this.mayingemisi1.Size = new System.Drawing.Size(98, 41);
             this.mayingemisi1.TabIndex = 299;
             this.mayingemisi1.UseVisualStyleBackColor = true;
             // 
@@ -1697,7 +1697,7 @@ namespace amiral_battı_oyunu
             this.mayingemisi4.Location = new System.Drawing.Point(739, 208);
             this.mayingemisi4.Margin = new System.Windows.Forms.Padding(2);
             this.mayingemisi4.Name = "mayingemisi4";
-            this.mayingemisi4.Size = new System.Drawing.Size(75, 41);
+            this.mayingemisi4.Size = new System.Drawing.Size(98, 41);
             this.mayingemisi4.TabIndex = 302;
             this.mayingemisi4.UseVisualStyleBackColor = true;
             // 
@@ -1708,7 +1708,7 @@ namespace amiral_battı_oyunu
             this.mayingemisi3.Location = new System.Drawing.Point(739, 166);
             this.mayingemisi3.Margin = new System.Windows.Forms.Padding(2);
             this.mayingemisi3.Name = "mayingemisi3";
-            this.mayingemisi3.Size = new System.Drawing.Size(75, 41);
+            this.mayingemisi3.Size = new System.Drawing.Size(98, 41);
             this.mayingemisi3.TabIndex = 303;
             this.mayingemisi3.UseVisualStyleBackColor = true;
             // 
@@ -1716,10 +1716,10 @@ namespace amiral_battı_oyunu
             // 
             this.mayingemisi2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.mayingemisi2.Image = ((System.Drawing.Image)(resources.GetObject("mayingemisi2.Image")));
-            this.mayingemisi2.Location = new System.Drawing.Point(739, 123);
+            this.mayingemisi2.Location = new System.Drawing.Point(739, 121);
             this.mayingemisi2.Margin = new System.Windows.Forms.Padding(2);
             this.mayingemisi2.Name = "mayingemisi2";
-            this.mayingemisi2.Size = new System.Drawing.Size(75, 41);
+            this.mayingemisi2.Size = new System.Drawing.Size(98, 41);
             this.mayingemisi2.TabIndex = 304;
             this.mayingemisi2.UseVisualStyleBackColor = true;
             // 
@@ -1728,10 +1728,10 @@ namespace amiral_battı_oyunu
             this.kruvazör1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.kruvazör1.BackColor = System.Drawing.Color.Gainsboro;
             this.kruvazör1.Image = ((System.Drawing.Image)(resources.GetObject("kruvazör1.Image")));
-            this.kruvazör1.Location = new System.Drawing.Point(572, 296);
+            this.kruvazör1.Location = new System.Drawing.Point(547, 297);
             this.kruvazör1.Margin = new System.Windows.Forms.Padding(2);
             this.kruvazör1.Name = "kruvazör1";
-            this.kruvazör1.Size = new System.Drawing.Size(112, 41);
+            this.kruvazör1.Size = new System.Drawing.Size(138, 41);
             this.kruvazör1.TabIndex = 305;
             this.kruvazör1.UseVisualStyleBackColor = false;
             // 
@@ -1740,10 +1740,10 @@ namespace amiral_battı_oyunu
             this.kruvazör2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.kruvazör2.BackColor = System.Drawing.Color.Gainsboro;
             this.kruvazör2.Image = ((System.Drawing.Image)(resources.GetObject("kruvazör2.Image")));
-            this.kruvazör2.Location = new System.Drawing.Point(572, 342);
+            this.kruvazör2.Location = new System.Drawing.Point(547, 341);
             this.kruvazör2.Margin = new System.Windows.Forms.Padding(2);
             this.kruvazör2.Name = "kruvazör2";
-            this.kruvazör2.Size = new System.Drawing.Size(112, 41);
+            this.kruvazör2.Size = new System.Drawing.Size(138, 41);
             this.kruvazör2.TabIndex = 306;
             this.kruvazör2.UseVisualStyleBackColor = false;
             // 
@@ -1752,10 +1752,10 @@ namespace amiral_battı_oyunu
             this.kruvazör3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.kruvazör3.BackColor = System.Drawing.Color.Gainsboro;
             this.kruvazör3.Image = ((System.Drawing.Image)(resources.GetObject("kruvazör3.Image")));
-            this.kruvazör3.Location = new System.Drawing.Point(572, 251);
+            this.kruvazör3.Location = new System.Drawing.Point(547, 253);
             this.kruvazör3.Margin = new System.Windows.Forms.Padding(2);
             this.kruvazör3.Name = "kruvazör3";
-            this.kruvazör3.Size = new System.Drawing.Size(112, 41);
+            this.kruvazör3.Size = new System.Drawing.Size(138, 41);
             this.kruvazör3.TabIndex = 307;
             this.kruvazör3.UseVisualStyleBackColor = false;
             // 
@@ -1769,9 +1769,6 @@ namespace amiral_battı_oyunu
             this.fırkateyn1.Size = new System.Drawing.Size(188, 41);
             this.fırkateyn1.TabIndex = 308;
             this.fırkateyn1.UseVisualStyleBackColor = true;
-            this.fırkateyn1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.fırkateyn1_MouseDown);
-            this.fırkateyn1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.fırkateyn1_MouseMove);
-            this.fırkateyn1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.fırkateyn1_MouseUp);
             // 
             // fırkateyn2
             // 
@@ -1783,8 +1780,6 @@ namespace amiral_battı_oyunu
             this.fırkateyn2.Size = new System.Drawing.Size(188, 41);
             this.fırkateyn2.TabIndex = 309;
             this.fırkateyn2.UseVisualStyleBackColor = true;
-            this.fırkateyn2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.fırkateyn1_MouseDown);
-            this.fırkateyn2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.fırkateyn1_MouseMove);
             // 
             // amiralgemisi
             // 
@@ -1812,7 +1807,7 @@ namespace amiral_battı_oyunu
             // 
             this.label42.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(741, 66);
+            this.label42.Location = new System.Drawing.Point(743, 61);
             this.label42.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label42.Name = "label42";
             this.label42.Size = new System.Drawing.Size(81, 13);
@@ -1930,6 +1925,7 @@ namespace amiral_battı_oyunu
             this.label21.Size = new System.Drawing.Size(26, 27);
             this.label21.TabIndex = 427;
             this.label21.Text = "4";
+            this.label21.Visible = false;
             // 
             // label22
             // 
@@ -1942,6 +1938,7 @@ namespace amiral_battı_oyunu
             this.label22.Size = new System.Drawing.Size(23, 27);
             this.label22.TabIndex = 428;
             this.label22.Text = "5";
+            this.label22.Visible = false;
             // 
             // label23
             // 
@@ -1954,6 +1951,7 @@ namespace amiral_battı_oyunu
             this.label23.Size = new System.Drawing.Size(23, 27);
             this.label23.TabIndex = 426;
             this.label23.Text = "3";
+            this.label23.Visible = false;
             // 
             // panel2
             // 
@@ -2064,6 +2062,7 @@ namespace amiral_battı_oyunu
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(497, 503);
             this.panel2.TabIndex = 444;
+            this.panel2.Visible = false;
             // 
             // button2
             // 
@@ -3078,6 +3077,7 @@ namespace amiral_battı_oyunu
             this.label24.Size = new System.Drawing.Size(25, 27);
             this.label24.TabIndex = 429;
             this.label24.Text = "6";
+            this.label24.Visible = false;
             // 
             // label25
             // 
@@ -3090,6 +3090,7 @@ namespace amiral_battı_oyunu
             this.label25.Size = new System.Drawing.Size(20, 27);
             this.label25.TabIndex = 425;
             this.label25.Text = "1";
+            this.label25.Visible = false;
             // 
             // label26
             // 
@@ -3102,6 +3103,7 @@ namespace amiral_battı_oyunu
             this.label26.Size = new System.Drawing.Size(25, 27);
             this.label26.TabIndex = 424;
             this.label26.Text = "2";
+            this.label26.Visible = false;
             // 
             // label27
             // 
@@ -3114,6 +3116,7 @@ namespace amiral_battı_oyunu
             this.label27.Size = new System.Drawing.Size(25, 27);
             this.label27.TabIndex = 431;
             this.label27.Text = "8";
+            this.label27.Visible = false;
             // 
             // label28
             // 
@@ -3126,6 +3129,7 @@ namespace amiral_battı_oyunu
             this.label28.Size = new System.Drawing.Size(25, 27);
             this.label28.TabIndex = 430;
             this.label28.Text = "7";
+            this.label28.Visible = false;
             // 
             // label29
             // 
@@ -3138,6 +3142,7 @@ namespace amiral_battı_oyunu
             this.label29.Size = new System.Drawing.Size(25, 27);
             this.label29.TabIndex = 432;
             this.label29.Text = "9";
+            this.label29.Visible = false;
             // 
             // label30
             // 
@@ -3150,6 +3155,7 @@ namespace amiral_battı_oyunu
             this.label30.Size = new System.Drawing.Size(35, 27);
             this.label30.TabIndex = 433;
             this.label30.Text = "10";
+            this.label30.Visible = false;
             // 
             // label31
             // 
@@ -3162,6 +3168,7 @@ namespace amiral_battı_oyunu
             this.label31.Size = new System.Drawing.Size(21, 23);
             this.label31.TabIndex = 439;
             this.label31.Text = "F";
+            this.label31.Visible = false;
             // 
             // label32
             // 
@@ -3174,6 +3181,7 @@ namespace amiral_battı_oyunu
             this.label32.Size = new System.Drawing.Size(25, 23);
             this.label32.TabIndex = 434;
             this.label32.Text = "A";
+            this.label32.Visible = false;
             // 
             // label33
             // 
@@ -3186,6 +3194,7 @@ namespace amiral_battı_oyunu
             this.label33.Size = new System.Drawing.Size(24, 23);
             this.label33.TabIndex = 435;
             this.label33.Text = "B";
+            this.label33.Visible = false;
             // 
             // label34
             // 
@@ -3198,6 +3207,7 @@ namespace amiral_battı_oyunu
             this.label34.Size = new System.Drawing.Size(18, 23);
             this.label34.TabIndex = 443;
             this.label34.Text = "J";
+            this.label34.Visible = false;
             // 
             // label35
             // 
@@ -3210,6 +3220,7 @@ namespace amiral_battı_oyunu
             this.label35.Size = new System.Drawing.Size(24, 23);
             this.label35.TabIndex = 436;
             this.label35.Text = "C";
+            this.label35.Visible = false;
             // 
             // label36
             // 
@@ -3222,6 +3233,7 @@ namespace amiral_battı_oyunu
             this.label36.Size = new System.Drawing.Size(26, 23);
             this.label36.TabIndex = 437;
             this.label36.Text = "D";
+            this.label36.Visible = false;
             // 
             // label37
             // 
@@ -3234,6 +3246,7 @@ namespace amiral_battı_oyunu
             this.label37.Size = new System.Drawing.Size(17, 23);
             this.label37.TabIndex = 442;
             this.label37.Text = "I";
+            this.label37.Visible = false;
             // 
             // label38
             // 
@@ -3246,6 +3259,7 @@ namespace amiral_battı_oyunu
             this.label38.Size = new System.Drawing.Size(21, 23);
             this.label38.TabIndex = 438;
             this.label38.Text = "E";
+            this.label38.Visible = false;
             // 
             // label39
             // 
@@ -3258,6 +3272,7 @@ namespace amiral_battı_oyunu
             this.label39.Size = new System.Drawing.Size(25, 23);
             this.label39.TabIndex = 440;
             this.label39.Text = "G";
+            this.label39.Visible = false;
             // 
             // label40
             // 
@@ -3270,6 +3285,7 @@ namespace amiral_battı_oyunu
             this.label40.Size = new System.Drawing.Size(26, 23);
             this.label40.TabIndex = 441;
             this.label40.Text = "H";
+            this.label40.Visible = false;
             // 
             // oyun
             // 
