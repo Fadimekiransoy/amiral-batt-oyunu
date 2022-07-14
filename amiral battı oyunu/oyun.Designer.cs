@@ -169,10 +169,9 @@ namespace amiral_battı_oyunu
             this.label44 = new System.Windows.Forms.Label();
             this.label45 = new System.Windows.Forms.Label();
             this.label46 = new System.Windows.Forms.Label();
-            this.mayın = new System.Windows.Forms.Button();
+            this.mayın1 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.label47 = new System.Windows.Forms.Label();
-            this.label48 = new System.Windows.Forms.Label();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
@@ -301,7 +300,6 @@ namespace amiral_battı_oyunu
             // 
             // label2
             // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Perpetua Titling MT", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(0, 111);
@@ -313,7 +311,6 @@ namespace amiral_battı_oyunu
             // 
             // label1
             // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Perpetua Titling MT", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(6, 50);
@@ -325,7 +322,6 @@ namespace amiral_battı_oyunu
             // 
             // label3
             // 
-            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Perpetua Titling MT", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(2, 164);
@@ -337,7 +333,6 @@ namespace amiral_battı_oyunu
             // 
             // label4
             // 
-            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Perpetua Titling MT", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(0, 213);
@@ -349,7 +344,6 @@ namespace amiral_battı_oyunu
             // 
             // label5
             // 
-            this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Perpetua Titling MT", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(2, 253);
@@ -361,7 +355,6 @@ namespace amiral_battı_oyunu
             // 
             // label6
             // 
-            this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Perpetua Titling MT", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(2, 304);
@@ -373,7 +366,6 @@ namespace amiral_battı_oyunu
             // 
             // label7
             // 
-            this.label7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Perpetua Titling MT", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(3, 355);
@@ -385,7 +377,6 @@ namespace amiral_battı_oyunu
             // 
             // label8
             // 
-            this.label8.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Perpetua Titling MT", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(3, 399);
@@ -397,7 +388,6 @@ namespace amiral_battı_oyunu
             // 
             // label9
             // 
-            this.label9.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Perpetua Titling MT", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(3, 448);
@@ -409,7 +399,6 @@ namespace amiral_battı_oyunu
             // 
             // label10
             // 
-            this.label10.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Perpetua Titling MT", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(-3, 502);
@@ -1423,7 +1412,6 @@ namespace amiral_battı_oyunu
             // 
             // label11
             // 
-            this.label11.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Perpetua Titling MT", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(47, 19);
@@ -1435,7 +1423,6 @@ namespace amiral_battı_oyunu
             // 
             // label12
             // 
-            this.label12.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Perpetua Titling MT", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.Location = new System.Drawing.Point(96, 19);
@@ -1447,7 +1434,6 @@ namespace amiral_battı_oyunu
             // 
             // label13
             // 
-            this.label13.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Perpetua Titling MT", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.Location = new System.Drawing.Point(144, 19);
@@ -1459,7 +1445,6 @@ namespace amiral_battı_oyunu
             // 
             // label14
             // 
-            this.label14.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Perpetua Titling MT", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.Location = new System.Drawing.Point(195, 19);
@@ -1471,7 +1456,6 @@ namespace amiral_battı_oyunu
             // 
             // label15
             // 
-            this.label15.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Perpetua Titling MT", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.Location = new System.Drawing.Point(243, 19);
@@ -1483,7 +1467,6 @@ namespace amiral_battı_oyunu
             // 
             // label16
             // 
-            this.label16.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Perpetua Titling MT", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.Location = new System.Drawing.Point(291, 19);
@@ -1495,7 +1478,6 @@ namespace amiral_battı_oyunu
             // 
             // label17
             // 
-            this.label17.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Perpetua Titling MT", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.Location = new System.Drawing.Point(343, 16);
@@ -1507,7 +1489,6 @@ namespace amiral_battı_oyunu
             // 
             // label18
             // 
-            this.label18.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Perpetua Titling MT", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.Location = new System.Drawing.Point(389, 19);
@@ -1519,7 +1500,6 @@ namespace amiral_battı_oyunu
             // 
             // label19
             // 
-            this.label19.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Perpetua Titling MT", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.Location = new System.Drawing.Point(438, 16);
@@ -1531,7 +1511,6 @@ namespace amiral_battı_oyunu
             // 
             // label20
             // 
-            this.label20.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Perpetua Titling MT", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.Location = new System.Drawing.Point(490, 19);
@@ -1543,7 +1522,6 @@ namespace amiral_battı_oyunu
             // 
             // panel1
             // 
-            this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel1.BackColor = System.Drawing.Color.DarkGray;
             this.panel1.Controls.Add(this.A1);
             this.panel1.Controls.Add(this.B1);
@@ -1653,7 +1631,6 @@ namespace amiral_battı_oyunu
             // 
             // mayın2
             // 
-            this.mayın2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.mayın2.Image = ((System.Drawing.Image)(resources.GetObject("mayın2.Image")));
             this.mayın2.Location = new System.Drawing.Point(746, 288);
             this.mayın2.Margin = new System.Windows.Forms.Padding(2);
@@ -1667,7 +1644,6 @@ namespace amiral_battı_oyunu
             // 
             // mayın3
             // 
-            this.mayın3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.mayın3.Image = ((System.Drawing.Image)(resources.GetObject("mayın3.Image")));
             this.mayın3.Location = new System.Drawing.Point(799, 287);
             this.mayın3.Margin = new System.Windows.Forms.Padding(2);
@@ -1675,13 +1651,12 @@ namespace amiral_battı_oyunu
             this.mayın3.Size = new System.Drawing.Size(44, 44);
             this.mayın3.TabIndex = 298;
             this.mayın3.UseVisualStyleBackColor = true;
-            this.mayın3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mayın_MouseDown);
-            this.mayın3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.mayın_MouseMove);
-            this.mayın3.MouseUp += new System.Windows.Forms.MouseEventHandler(this.mayın_MouseUp);
+            this.mayın3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mayın3_MouseDown);
+            this.mayın3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.mayın3_MouseMove);
+            this.mayın3.MouseUp += new System.Windows.Forms.MouseEventHandler(this.mayın3_MouseUp);
             // 
             // mayingemisi1
             // 
-            this.mayingemisi1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.mayingemisi1.Image = ((System.Drawing.Image)(resources.GetObject("mayingemisi1.Image")));
             this.mayingemisi1.Location = new System.Drawing.Point(739, 76);
             this.mayingemisi1.Margin = new System.Windows.Forms.Padding(2);
@@ -1692,7 +1667,6 @@ namespace amiral_battı_oyunu
             // 
             // mayingemisi4
             // 
-            this.mayingemisi4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.mayingemisi4.Image = ((System.Drawing.Image)(resources.GetObject("mayingemisi4.Image")));
             this.mayingemisi4.Location = new System.Drawing.Point(739, 208);
             this.mayingemisi4.Margin = new System.Windows.Forms.Padding(2);
@@ -1703,7 +1677,6 @@ namespace amiral_battı_oyunu
             // 
             // mayingemisi3
             // 
-            this.mayingemisi3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.mayingemisi3.Image = ((System.Drawing.Image)(resources.GetObject("mayingemisi3.Image")));
             this.mayingemisi3.Location = new System.Drawing.Point(739, 166);
             this.mayingemisi3.Margin = new System.Windows.Forms.Padding(2);
@@ -1714,7 +1687,6 @@ namespace amiral_battı_oyunu
             // 
             // mayingemisi2
             // 
-            this.mayingemisi2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.mayingemisi2.Image = ((System.Drawing.Image)(resources.GetObject("mayingemisi2.Image")));
             this.mayingemisi2.Location = new System.Drawing.Point(739, 121);
             this.mayingemisi2.Margin = new System.Windows.Forms.Padding(2);
@@ -1725,7 +1697,6 @@ namespace amiral_battı_oyunu
             // 
             // kruvazör1
             // 
-            this.kruvazör1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.kruvazör1.BackColor = System.Drawing.Color.Gainsboro;
             this.kruvazör1.Image = ((System.Drawing.Image)(resources.GetObject("kruvazör1.Image")));
             this.kruvazör1.Location = new System.Drawing.Point(547, 297);
@@ -1737,7 +1708,6 @@ namespace amiral_battı_oyunu
             // 
             // kruvazör2
             // 
-            this.kruvazör2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.kruvazör2.BackColor = System.Drawing.Color.Gainsboro;
             this.kruvazör2.Image = ((System.Drawing.Image)(resources.GetObject("kruvazör2.Image")));
             this.kruvazör2.Location = new System.Drawing.Point(547, 341);
@@ -1749,7 +1719,6 @@ namespace amiral_battı_oyunu
             // 
             // kruvazör3
             // 
-            this.kruvazör3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.kruvazör3.BackColor = System.Drawing.Color.Gainsboro;
             this.kruvazör3.Image = ((System.Drawing.Image)(resources.GetObject("kruvazör3.Image")));
             this.kruvazör3.Location = new System.Drawing.Point(547, 253);
@@ -1761,7 +1730,6 @@ namespace amiral_battı_oyunu
             // 
             // fırkateyn1
             // 
-            this.fırkateyn1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.fırkateyn1.Image = ((System.Drawing.Image)(resources.GetObject("fırkateyn1.Image")));
             this.fırkateyn1.Location = new System.Drawing.Point(547, 76);
             this.fırkateyn1.Margin = new System.Windows.Forms.Padding(2);
@@ -1772,7 +1740,6 @@ namespace amiral_battı_oyunu
             // 
             // fırkateyn2
             // 
-            this.fırkateyn2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.fırkateyn2.Image = ((System.Drawing.Image)(resources.GetObject("fırkateyn2.Image")));
             this.fırkateyn2.Location = new System.Drawing.Point(547, 123);
             this.fırkateyn2.Margin = new System.Windows.Forms.Padding(2);
@@ -1783,7 +1750,6 @@ namespace amiral_battı_oyunu
             // 
             // amiralgemisi
             // 
-            this.amiralgemisi.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.amiralgemisi.Image = ((System.Drawing.Image)(resources.GetObject("amiralgemisi.Image")));
             this.amiralgemisi.Location = new System.Drawing.Point(547, 183);
             this.amiralgemisi.Margin = new System.Windows.Forms.Padding(2);
@@ -1794,7 +1760,6 @@ namespace amiral_battı_oyunu
             // 
             // label41
             // 
-            this.label41.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label41.AutoSize = true;
             this.label41.Location = new System.Drawing.Point(698, 261);
             this.label41.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -1805,7 +1770,6 @@ namespace amiral_battı_oyunu
             // 
             // label42
             // 
-            this.label42.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label42.AutoSize = true;
             this.label42.Location = new System.Drawing.Point(743, 61);
             this.label42.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -1816,7 +1780,6 @@ namespace amiral_battı_oyunu
             // 
             // label43
             // 
-            this.label43.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label43.AutoSize = true;
             this.label43.Location = new System.Drawing.Point(570, 236);
             this.label43.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -1827,7 +1790,6 @@ namespace amiral_battı_oyunu
             // 
             // label44
             // 
-            this.label44.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label44.AutoSize = true;
             this.label44.Location = new System.Drawing.Point(578, 61);
             this.label44.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -1838,7 +1800,6 @@ namespace amiral_battı_oyunu
             // 
             // label45
             // 
-            this.label45.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label45.AutoSize = true;
             this.label45.Location = new System.Drawing.Point(576, 168);
             this.label45.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -1849,7 +1810,6 @@ namespace amiral_battı_oyunu
             // 
             // label46
             // 
-            this.label46.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label46.AutoSize = true;
             this.label46.Font = new System.Drawing.Font("Segoe UI", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label46.Location = new System.Drawing.Point(576, 5);
@@ -1859,23 +1819,21 @@ namespace amiral_battı_oyunu
             this.label46.TabIndex = 317;
             this.label46.Text = "AMİRAL BATTI";
             // 
-            // mayın
+            // mayın1
             // 
-            this.mayın.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.mayın.Image = ((System.Drawing.Image)(resources.GetObject("mayın.Image")));
-            this.mayın.Location = new System.Drawing.Point(698, 288);
-            this.mayın.Margin = new System.Windows.Forms.Padding(2);
-            this.mayın.Name = "mayın";
-            this.mayın.Size = new System.Drawing.Size(44, 44);
-            this.mayın.TabIndex = 418;
-            this.mayın.UseVisualStyleBackColor = true;
-            this.mayın.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mayın_MouseDown);
-            this.mayın.MouseMove += new System.Windows.Forms.MouseEventHandler(this.mayın_MouseMove);
-            this.mayın.MouseUp += new System.Windows.Forms.MouseEventHandler(this.mayın_MouseUp);
+            this.mayın1.Image = ((System.Drawing.Image)(resources.GetObject("mayın1.Image")));
+            this.mayın1.Location = new System.Drawing.Point(698, 288);
+            this.mayın1.Margin = new System.Windows.Forms.Padding(2);
+            this.mayın1.Name = "mayın1";
+            this.mayın1.Size = new System.Drawing.Size(44, 44);
+            this.mayın1.TabIndex = 418;
+            this.mayın1.UseVisualStyleBackColor = true;
+            this.mayın1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mayın1_MouseDown);
+            this.mayın1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.mayın1_MouseMove);
+            this.mayın1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.mayın1_MouseUp);
             // 
             // button1
             // 
-            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button1.Location = new System.Drawing.Point(701, 439);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
@@ -1886,7 +1844,6 @@ namespace amiral_battı_oyunu
             // 
             // label47
             // 
-            this.label47.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label47.AutoSize = true;
             this.label47.Location = new System.Drawing.Point(713, 516);
             this.label47.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -1894,17 +1851,6 @@ namespace amiral_battı_oyunu
             this.label47.Size = new System.Drawing.Size(41, 13);
             this.label47.TabIndex = 420;
             this.label47.Text = "label47";
-            // 
-            // label48
-            // 
-            this.label48.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label48.AutoSize = true;
-            this.label48.Location = new System.Drawing.Point(713, 543);
-            this.label48.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(41, 13);
-            this.label48.TabIndex = 421;
-            this.label48.Text = "label48";
             // 
             // listBox1
             // 
@@ -1916,7 +1862,6 @@ namespace amiral_battı_oyunu
             // 
             // label21
             // 
-            this.label21.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Perpetua Titling MT", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.Location = new System.Drawing.Point(871, 213);
@@ -1929,7 +1874,6 @@ namespace amiral_battı_oyunu
             // 
             // label22
             // 
-            this.label22.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Perpetua Titling MT", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.Location = new System.Drawing.Point(873, 253);
@@ -1942,7 +1886,6 @@ namespace amiral_battı_oyunu
             // 
             // label23
             // 
-            this.label23.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Perpetua Titling MT", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.Location = new System.Drawing.Point(873, 164);
@@ -1955,7 +1898,6 @@ namespace amiral_battı_oyunu
             // 
             // panel2
             // 
-            this.panel2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel2.BackColor = System.Drawing.Color.DarkGray;
             this.panel2.Controls.Add(this.button2);
             this.panel2.Controls.Add(this.button3);
@@ -3068,7 +3010,6 @@ namespace amiral_battı_oyunu
             // 
             // label24
             // 
-            this.label24.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("Perpetua Titling MT", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.Location = new System.Drawing.Point(873, 304);
@@ -3081,7 +3022,6 @@ namespace amiral_battı_oyunu
             // 
             // label25
             // 
-            this.label25.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Perpetua Titling MT", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.Location = new System.Drawing.Point(877, 50);
@@ -3094,7 +3034,6 @@ namespace amiral_battı_oyunu
             // 
             // label26
             // 
-            this.label26.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Perpetua Titling MT", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.Location = new System.Drawing.Point(871, 111);
@@ -3107,7 +3046,6 @@ namespace amiral_battı_oyunu
             // 
             // label27
             // 
-            this.label27.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label27.AutoSize = true;
             this.label27.Font = new System.Drawing.Font("Perpetua Titling MT", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.Location = new System.Drawing.Point(874, 399);
@@ -3120,7 +3058,6 @@ namespace amiral_battı_oyunu
             // 
             // label28
             // 
-            this.label28.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label28.AutoSize = true;
             this.label28.Font = new System.Drawing.Font("Perpetua Titling MT", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label28.Location = new System.Drawing.Point(874, 355);
@@ -3133,7 +3070,6 @@ namespace amiral_battı_oyunu
             // 
             // label29
             // 
-            this.label29.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("Perpetua Titling MT", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label29.Location = new System.Drawing.Point(874, 448);
@@ -3146,7 +3082,6 @@ namespace amiral_battı_oyunu
             // 
             // label30
             // 
-            this.label30.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label30.AutoSize = true;
             this.label30.Font = new System.Drawing.Font("Perpetua Titling MT", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label30.Location = new System.Drawing.Point(868, 502);
@@ -3159,7 +3094,6 @@ namespace amiral_battı_oyunu
             // 
             // label31
             // 
-            this.label31.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label31.AutoSize = true;
             this.label31.Font = new System.Drawing.Font("Perpetua Titling MT", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label31.Location = new System.Drawing.Point(1162, 19);
@@ -3172,7 +3106,6 @@ namespace amiral_battı_oyunu
             // 
             // label32
             // 
-            this.label32.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label32.AutoSize = true;
             this.label32.Font = new System.Drawing.Font("Perpetua Titling MT", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label32.Location = new System.Drawing.Point(918, 19);
@@ -3185,7 +3118,6 @@ namespace amiral_battı_oyunu
             // 
             // label33
             // 
-            this.label33.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label33.AutoSize = true;
             this.label33.Font = new System.Drawing.Font("Perpetua Titling MT", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label33.Location = new System.Drawing.Point(967, 19);
@@ -3198,7 +3130,6 @@ namespace amiral_battı_oyunu
             // 
             // label34
             // 
-            this.label34.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label34.AutoSize = true;
             this.label34.Font = new System.Drawing.Font("Perpetua Titling MT", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label34.Location = new System.Drawing.Point(1361, 19);
@@ -3211,7 +3142,6 @@ namespace amiral_battı_oyunu
             // 
             // label35
             // 
-            this.label35.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label35.AutoSize = true;
             this.label35.Font = new System.Drawing.Font("Perpetua Titling MT", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label35.Location = new System.Drawing.Point(1015, 19);
@@ -3224,7 +3154,6 @@ namespace amiral_battı_oyunu
             // 
             // label36
             // 
-            this.label36.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label36.AutoSize = true;
             this.label36.Font = new System.Drawing.Font("Perpetua Titling MT", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label36.Location = new System.Drawing.Point(1066, 19);
@@ -3237,7 +3166,6 @@ namespace amiral_battı_oyunu
             // 
             // label37
             // 
-            this.label37.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label37.AutoSize = true;
             this.label37.Font = new System.Drawing.Font("Perpetua Titling MT", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label37.Location = new System.Drawing.Point(1309, 16);
@@ -3250,7 +3178,6 @@ namespace amiral_battı_oyunu
             // 
             // label38
             // 
-            this.label38.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label38.AutoSize = true;
             this.label38.Font = new System.Drawing.Font("Perpetua Titling MT", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label38.Location = new System.Drawing.Point(1114, 19);
@@ -3263,7 +3190,6 @@ namespace amiral_battı_oyunu
             // 
             // label39
             // 
-            this.label39.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label39.AutoSize = true;
             this.label39.Font = new System.Drawing.Font("Perpetua Titling MT", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label39.Location = new System.Drawing.Point(1214, 16);
@@ -3276,7 +3202,6 @@ namespace amiral_battı_oyunu
             // 
             // label40
             // 
-            this.label40.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label40.AutoSize = true;
             this.label40.Font = new System.Drawing.Font("Perpetua Titling MT", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label40.Location = new System.Drawing.Point(1260, 19);
@@ -3291,7 +3216,7 @@ namespace amiral_battı_oyunu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Gainsboro;
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(1410, 634);
             this.Controls.Add(this.kruvazör2);
             this.Controls.Add(this.kruvazör1);
@@ -3327,11 +3252,10 @@ namespace amiral_battı_oyunu
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.mayın2);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label48);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label47);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.mayın);
+            this.Controls.Add(this.mayın1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label46);
             this.Controls.Add(this.label45);
@@ -3358,7 +3282,6 @@ namespace amiral_battı_oyunu
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label18);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "oyun";
             this.Text = "AMİRAL BATTI";
@@ -3492,7 +3415,7 @@ namespace amiral_battı_oyunu
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button mayın1;
+      //  private System.Windows.Forms.Button mayın1;
         private System.Windows.Forms.Button mayın3;
         private System.Windows.Forms.Button mayın2;
       ///  private System.Windows.Forms.Button mayın1;
@@ -3512,10 +3435,9 @@ namespace amiral_battı_oyunu
         private System.Windows.Forms.Button mayingemisi4;
         private System.Windows.Forms.Button mayingemisi1;
         private System.Windows.Forms.Label label46;
-        private System.Windows.Forms.Button mayın;
+        private System.Windows.Forms.Button mayın1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label47;
-        private System.Windows.Forms.Label label48;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label22;
