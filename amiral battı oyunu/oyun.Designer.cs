@@ -3285,7 +3285,7 @@ namespace amiral_battı_oyunu
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "oyun";
             this.Text = "AMİRAL BATTI";
-            this.Load += new System.EventHandler(this.oyun_Load_1);
+            this.Load += new System.EventHandler(this.oyun_Load);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
