@@ -1664,6 +1664,9 @@ namespace amiral_battı_oyunu
             this.mayingemisi1.Size = new System.Drawing.Size(98, 41);
             this.mayingemisi1.TabIndex = 299;
             this.mayingemisi1.UseVisualStyleBackColor = true;
+            this.mayingemisi1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mayingemisi1_MouseDown);
+            this.mayingemisi1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.mayingemisi1_MouseMove);
+            this.mayingemisi1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.mayingemisi1_MouseUp);
             // 
             // mayingemisi4
             // 
