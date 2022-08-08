@@ -6,9 +6,15 @@ Oyuna baslarken kullanıcıların kayıt olması ve giriş yapmaları gerekiyor.
 Oyuncular gemileri gemi kartına yerleştirirr ve oyunu başlatır ve bu iki oyuncu tcp/ıp üzerinden haberleşme olayını sağlayacak.
 
 Girişekranı.cs formu
+
+
+
 Bu formda kullanıcılar oyunu oynamak için önce kayıt ol ekranından kayıt olacak ve oyuna giriş yapabilecek.Daha sonra oyunu tekrar oynamak için geldiğinde oluşturmuş olduğu isim ve şifre bilgisi ile oyuna giriş yapıp kaldığı yerden devam edebilecek.
 
 Oyun.cs formu
+
+
+
 Oyuncu ilk defa oyunu oynamak için geldi ise kayıt olup daha sonra giriş yaparak oyunu oynayabilecek.Ama daha önce kayıt bilgisi varsa giriş ekranında veritabanında kayıdın olup olmadığını kontrol edip oyuna giriş sağlayabilecek.
 
 Oyuncu bu ekranda önce gemilerini gemi kartına yerleştirecek ve oyunun başlatılması için diğer oyuncuya ben hazırım gibi bir haber gönderecek.Diğer oyuncuda gemilerini yerleştirildi ise oyun başlayacak.
