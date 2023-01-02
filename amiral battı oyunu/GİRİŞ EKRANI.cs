@@ -140,6 +140,11 @@ namespace amiral_battı_oyunu
                 txtsifre.Text = "SİFRE";
             }
         }
+
+        private void giris_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

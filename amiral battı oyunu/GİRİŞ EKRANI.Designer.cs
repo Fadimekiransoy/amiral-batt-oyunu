@@ -117,7 +117,7 @@ namespace amiral_battı_oyunu
             this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox1.Location = new System.Drawing.Point(262, 158);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(102, 21);
+            this.checkBox1.Size = new System.Drawing.Size(97, 20);
             this.checkBox1.TabIndex = 7;
             this.checkBox1.Text = "Şifreyi gizle";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -129,7 +129,7 @@ namespace amiral_battı_oyunu
             this.label6.Font = new System.Drawing.Font("Palatino Linotype", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(156, 16);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(113, 32);
+            this.label6.Size = new System.Drawing.Size(108, 30);
             this.label6.TabIndex = 6;
             this.label6.Text = "Giriş Yap";
             // 
@@ -156,7 +156,7 @@ namespace amiral_battı_oyunu
             this.label3.Font = new System.Drawing.Font("Palatino Linotype", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(174, 14);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(107, 32);
+            this.label3.Size = new System.Drawing.Size(104, 30);
             this.label3.TabIndex = 6;
             this.label3.Text = "Kayıt Ol";
             // 
@@ -225,6 +225,7 @@ namespace amiral_battı_oyunu
             this.Controls.Add(this.panel1);
             this.Name = "giris";
             this.Text = "giris ";
+            this.Load += new System.EventHandler(this.giris_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

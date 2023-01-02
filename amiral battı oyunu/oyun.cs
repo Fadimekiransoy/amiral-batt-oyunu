@@ -74,8 +74,8 @@ namespace amiral_battı_oyunu
             mayın2.Cursor = Cursors.SizeAll;
             ilkkonumAl = e.Location;
             aktifgemi = "mayın2";
-           sil();
-           Console.WriteLine(konum.Count);
+            sil(); 
+            Console.WriteLine(konum.Count);
         }
 
         private void mayın2_MouseMove(object sender, MouseEventArgs e)
@@ -145,10 +145,11 @@ namespace amiral_battı_oyunu
         private void mayingemisi1_MouseMove(object sender, MouseEventArgs e)
         {
             if (!suruklenmedurumu) return;
-            mayingemisi1.Left = e.X + mayingemisi1.Left - (ilkkonumAl.X);
+            mayingemisi1.Left = e.X + mayingemisi1.Left+ - (ilkkonumAl.X);
             mayingemisi1.Top = e.Y + mayingemisi1.Top - (ilkkonumAl.Y);
 
             label47.Text = mayingemisi1.Left + "," + mayingemisi1.Top;
+            
         }
 
         private void mayingemisi1_MouseUp(object sender, MouseEventArgs e)
@@ -188,8 +189,8 @@ namespace amiral_battı_oyunu
 
         public void konumbelirle(Button Gemi)
         {
-            GemiHarfKonumu = "";// belirsiz
-            GemiSayiKonumu = 0;//rasgele verdik
+            GemiHarfKonumu = "";
+            GemiSayiKonumu = 0;
             for (i = 0; i < 10; i++)
             {
                 if (Gemi.Location.X >= butonlarFormKonumuX[0, i] && Gemi.Location.X < (butonlarFormKonumuX[0, i] + 50))
@@ -265,7 +266,7 @@ namespace amiral_battı_oyunu
                   case "mayingemisi1":
                       mayingemisi1.Location = new Point(739, 76);
                       break;
-                }
+               }
 
                label47.Text = "";
                MessageBox.Show("Savaş kartına yerleştiriniz.","UYARI");
@@ -296,14 +297,6 @@ namespace amiral_battı_oyunu
            }
            else
            {
-               if (gemiuzunluk==1)
-               {
-                   konum.Add(GemiHarfKonumu + (GemiSayiKonumu + 1));
-               }
-               else if (gemiuzunluk==2)
-               {
-                   konum.Add(GemiHarfKonumu + (GemiSayiKonumu + 1));
-               }//değişiklik yaptım 
                label47.Text =  GemiHarfKonumu + (GemiSayiKonumu + 1) + " Bölgesine Yerleştirildi.";
                string a = aktifgemi + " " + GemiHarfKonumu + (GemiSayiKonumu + 1);
                listBox1.Items.Add(a);
@@ -336,9 +329,6 @@ namespace amiral_battı_oyunu
            
            
         }
-
-        
-
         private void oyun_Load(object sender, EventArgs e)
         {
             butonKonumBelirleme();
@@ -347,4 +337,4 @@ namespace amiral_battı_oyunu
        
     }
 
-} 
+} //son
